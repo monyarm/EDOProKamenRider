@@ -1,4 +1,4 @@
--- Kamen Rider
+-- Kamen Rider Wizard
 local s, id = GetID()
 function s.initial_effect(c)
   -- effects
