@@ -5,7 +5,7 @@ attribute = "dark"
 level = 4
 type = "monster normal"
 race = "warrior"
-set = "masked-hero destiny-hero hero kamen-rider"
+set = "masked-hero destiny-hero kamen-rider"
 flavor-text = '''
 Saa, omae no tsumi o kazoero.
 
@@ -25,7 +25,7 @@ pendulum-effect = '''
 All face-up spellcaster-type monsters you control gain 100 ATK for each spell card on the field..'''
 type = "monster effect pendulum"
 race = "spellcaster"
-set = "masked-hero destiny-hero hero kamen-rider"
+set = "masked-hero destiny-hero kamen-rider"
 effect = '''
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)
 Kamen Rider Wizard is also treated as a Warrior-Type monster.'''
@@ -35,7 +35,7 @@ def = 1500
 
 [card.kr-wizard2]
 id = 197100021
-allias= 19710002
+alias= 19710002
 name = "Kamen Rider Wizard"
 attribute = "fire"
 level = 7
@@ -44,7 +44,7 @@ pendulum-effect = '''
 All face-up spellcaster-type monsters you control gain 100 ATK for each spell card on the field..'''
 type = "monster effect pendulum"
 race = "spellcaster"
-set = "masked-hero destiny-hero hero kamen-rider"
+set = "masked-hero destiny-hero kamen-rider"
 effect = '''
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)
 Kamen Rider Wizard is also treated as a Warrior-Type monster.'''
