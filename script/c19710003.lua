@@ -1,6 +1,8 @@
---Kamen Rider Super-1
+--Kamen Rider Hibiki
 local s,id=GetID()
 function s.initial_effect(c)
+
+	c:EnableReviveLimit()
 
 --Type Warrior
 	local e0=Effect.CreateEffect(c)
@@ -11,6 +13,19 @@ function s.initial_effect(c)
 	e0:SetValue(RACE_WARRIOR)
 	c:RegisterEffect(e0)
 
-
-	
+--ATK Bonus
+local e1=Effect.CreateEffect(c)
+    e1:SetType(EFFECT_TYPE_SINGLE)
+    e1:SetCode(EFFECT_UPDATE_ATTACK)
+    e1:SetCondition(s.condtion)
+    e1:SetValue(1300)
+    c:RegisterEffect(e1)
+end
+function s.condtion(e)
+    local ph=Duel.GetCurrentPhase()
+    if not (ph==PHASE_DAMAGE or ph==PHASE_DAMAGE_CAL) then return false end
+    local a=Duel.GetAttacker()
+    local d=Duel.GetAttackTarget()
+    return (a==e:GetHandler() and d and d:IsFaceup() and (d:IsLevelAbove(9) or d:IsRankAbove(7) or d:IsLinkAbove(4)))
+        or (d==e:GetHandler() and  (a:IsLevelAbove(9) or a:IsRankAbove(7) or a:IsLinkAbove(4)))
 end

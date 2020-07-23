@@ -94,7 +94,7 @@ id = 19710004
 name = "Ongeki Henshin"
 type = "spell ritual" 
 effect = '''
-This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal or are greater than the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
+This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
 
 
 [card.ongekida]

@@ -1,9 +1,9 @@
 -- Ongeki Henshin
-local s, id = GetID()
+local s,id=GetID()
 function s.initial_effect(c)
-  -- activate
-  local e1 = Effect.CreateEffect(c)
-  e1:SetType(EFFECT_TYPE_ACTIVATE)
-  e1:SetCode(EVENT_FREE_CHAIN)
-  c:RegisterEffect(e1)
+    Ritual.AddProcEqual(c,s.ritual_filter)
+end
+s.listed_series={0x1971}
+function s.ritual_filter(c)
+    return c:IsSetCard(0x1971) and c:IsRitualMonster()
 end
