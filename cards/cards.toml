@@ -67,3 +67,39 @@ set = "masked-hero elemental-hero kamen-rider"
 effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
+
+[card.kr-hibiki]
+id = 19710003
+name = "Kamen Rider Hibiki"
+attribute = "dark"
+level = 7
+type = "monster effect ritual"
+race = "fiend"
+set = "masked-hero destiny-hero kamen-rider"
+effect = '''
+Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
+Kamen Rider Hibiki is also treated as a Warrior-Type monster.
+
+Kamen Rider Hibiki gains 1300 ATK when batting a level 9 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK when batting a rank 7 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK when batting a link 4 or higher monster.
+
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 2700
+def = 2000
+
+
+[card.ongeki-henshin]
+id = 19710004
+name = "Ongeki Henshin"
+type = "spell ritual" 
+effect = '''
+This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal or are greater than the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
+
+
+[card.ongekida]
+id = 19710005
+name = "Ongeki Da: Kaen Renda no Kata"
+type = "spell ritual" 
+effect = '''
+This card can be used to Ritual Summon as many "Kamen Rider" Ritual Monsters from your deck as you can. You must also Tribute monsters from your hand or field and/or banish "Kamen Rider" monsters from your graveyard, whose total Levels equal or are greater than the Level of the "Kamen Rider" Ritual Monsters you Ritual Summon.'''
