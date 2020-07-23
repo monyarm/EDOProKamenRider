@@ -1,11 +1,14 @@
 artwork := $(wildcard artwork/*)
 
-default: expansions/KamenRider.cdb pics
-expansions/KamenRider.cdb: cards/cards.toml cards/sets.toml cards/macro.toml
-	ygofab make
+default: KamenRider.cdb pics
 
-pics: $(artwork)
-	ygofab compose -Pall -e KamenRider
-	mv pics/EDOPro/* pics/
-	rmdir pics/EDOPro
+
+KamenRider.cdb: cards/cards.toml cards/sets.toml cards/macro.toml config.toml
+	mkdir expansions
+	ygofab make
+	mv expansions/* .
+	rmdir expansions
+
+pics: $(artwork) config.toml
+	ygopic proxy artwork KamenRider.cdb pics --size 512x --ext png --year 2020 --author monyarm --field
 

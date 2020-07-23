@@ -5,7 +5,7 @@
 
 [expansion.KamenRider]
 default = true
-recipe = ["cards/cards.toml", "cards/sets.toml"]
+recipe = ["cards/sets.toml", "cards/cards.toml", "cards/macro.toml"]
 
 [gamedir.KamenRider]
 path = "/run/media/monyarm/Windows 7/ProjectIgnis/"
