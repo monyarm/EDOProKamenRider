@@ -96,3 +96,23 @@ type = "spell ritual"
 effect = '''
 This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
 
+
+
+[card.dr-rey]
+id = 19710005
+name = "Dark Rider Rey"
+attribute = "water"
+rank = 4
+type = "monster effect xyz"
+race = "aqua"
+set = "kamen-rider dark-rider masked-hero evil-hero"
+effect = '''
+2 or more (max. 5) level 4 FIRE monsters.
+Dark Rider Rey is also treated as a Warrior-Type monster.
+Once per turn: You can detach 1 Xyz Material from this card to target 1 monster your opponent controls or is in their Graveyard; banish that target. This card gains effects based on the number of Xyz Materials attached to it.
+● 3 or more: This card gains 100 ATK and DEF for each Xyz Material attached to it.
+● 4 or more: This card gains 200 ATK and DEF for each Xyz Material attached to it.
+● 5: This card cannot be destroyed by card effects. 
+(This card is always treated as both a "Masked HERO", "Evil HERO" and "Kamen Rider" monster.)'''
+atk = 2500
+def = 2000
