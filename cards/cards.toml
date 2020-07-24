@@ -113,6 +113,48 @@ Once per turn: You can detach 1 Xyz Material from this card to target 1 monster 
 ● 3 or more: This card gains 100 ATK and DEF for each Xyz Material attached to it.
 ● 4 or more: This card gains 200 ATK and DEF for each Xyz Material attached to it.
 ● 5: This card cannot be destroyed by card effects. 
-(This card is always treated as both a "Masked HERO", "Evil HERO" and "Kamen Rider" monster.)'''
+(This card is always treated as a "Masked HERO", "Evil HERO" and "Kamen Rider" monster.)'''
 atk = 2500
 def = 2000
+
+
+[card.kr-kiva]
+id = 19710006
+name = "Kamen Rider Kiva"
+attribute = "dark"
+level = 4
+type = "monster effect"
+race = "zombie"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Kamen Rider Kiva is also trated as a Warrior-Type monster.
+When this card deals battle damage to your opponent, you gain lifepoints equal to half the damage dealt.
+This card deals piercing damage.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 1200
+def = 900
+
+[card.kr-shinobi]
+id = 19710007
+name = "Kamen Rider Shinobi"
+attribute = "dark"
+level = 3
+type = "monster effect"
+race = "warrior"
+set = "kamen-rider masked-hero destiny-hero ninja"
+effect = '''
+This card can make a second attack during each Battle Phase.
+
+(This card is always treated as a "Masked HERO", "Destiny HERO" and "Ninja" monster.)'''
+atk = 1200
+def = 800
+
+
+
+[card.rider-war]
+id = 19710008
+name = "Rider War"
+type = "spell field"
+effect = '''
+"HERO" and "Kaijin" monsters gain 500 ATK.
+'''
