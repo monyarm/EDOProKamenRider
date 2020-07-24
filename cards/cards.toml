@@ -156,5 +156,6 @@ id = 19710008
 name = "Rider War"
 type = "spell field"
 effect = '''
-"HERO" and "Kaijin" monsters gain 500 ATK.
+"Masked HERO" and "Kaijin" monsters gain 500 ATK.
+Once per turn, when an "Masked HERO" monster is destroyed by battle or card effect and sent to the GY: You can Special Summon 1 "Masked HERO" monster from your Deck with a Level less than or equal to that "Masked HERO" monster in the GY. 
 '''
