@@ -188,8 +188,8 @@ level = 7
 pendulum-scale = 3
 pendulum-effect = '''If you control "Kamen Rider Diend", you can special summon this card from your pendulum zone.'''
 type = "monster effect pendulum"
-race = "spellcaster"
-set = "kamen-rider destiny-hero elemental-hero"
+race = "warrior"
+set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 Tribute this card: Special Summon any level 8 or lower "Kamen Rider" from your hand, ignoring summoning conditions.'''
 atk = 2500
@@ -203,8 +203,8 @@ level = 8
 pendulum-scale = 8
 pendulum-effect = '''If you control "Kamen Rider Decade", you can special summon this card from your pendulum zone.'''
 type = "monster effect pendulum"
-race = "spellcaster"
-set = "kamen-rider destiny-hero elemental-hero"
+race = "warrior"
+set = "kamen-rider destiny-hero masked-hero"
 effect = '''Once per turn: Special Summon a Level 4 or lower "Kamen Rider" from your deck, ignoring summoning conditions.
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
 atk = 1500
