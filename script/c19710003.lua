@@ -26,6 +26,6 @@ function s.condtion(e)
     if not (ph==PHASE_DAMAGE or ph==PHASE_DAMAGE_CAL) then return false end
     local a=Duel.GetAttacker()
     local d=Duel.GetAttackTarget()
-    return (a==e:GetHandler() and d and d:IsFaceup() and (d:IsLevelAbove(9) or d:IsRankAbove(7) or d:IsLinkAbove(4)))
-        or (d==e:GetHandler() and  (a:IsLevelAbove(9) or a:IsRankAbove(7) or a:IsLinkAbove(4)))
+    return (a==e:GetHandler() and d and d:IsFaceup() and (d:IsLevelAbove(8) or d:IsRankAbove(5) or d:IsLinkAbove(3)))
+        or (d==e:GetHandler() and  (a:IsLevelAbove(8) or a:IsRankAbove(5) or a:IsLinkAbove(3)))
 end

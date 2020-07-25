@@ -80,9 +80,9 @@ effect = '''
 Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
 Kamen Rider Hibiki is also treated as a Warrior-Type monster.
 
-Kamen Rider Hibiki gains 1300 ATK when batting a level 9 or higher monster.
-Kamen Rider Hibiki gains 1300 ATK when batting a rank 7 or higher monster.
-Kamen Rider Hibiki gains 1300 ATK when batting a link 4 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK when batting a level 8 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK when batting a rank 5 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK when batting a link 3 or higher monster.
 
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
 atk = 2700
