@@ -1,0 +1,13 @@
+
+[macro]
+WIZARDEFFECT = '''
+(This card is always treated as both a "Masked HERO" and "Elemental HERO" monster.)
+Kamen Rider Wizard is also treated as a Warrior-Type monster.'''
+WIZARDPEFFECT = '''
+All face-up spellcaster-type monsters you control gain 100 ATK for each spell card on the field..'''
+DECADEEFFECT = '''
+Tribute this card: Special Summon any level 8 or lower "Kamen Rider" from your hand, ignoring summoning conditions.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+
+DIENDEFFECT = '''Once per turn: Special Summon a Level 4 or lower "Kamen Rider" from your deck, ignoring summoning conditions.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''

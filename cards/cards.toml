@@ -15,13 +15,6 @@ Saa, omae no tsumi o kazoero.
 atk = 2000
 def = 1800
 
-[macro]
-WIZARDEFFECT = '''
-(This card is always treated as both a "Masked HERO" and "Elemental HERO" monster.)
-Kamen Rider Wizard is also treated as a Warrior-Type monster.'''
-WIZARDPEFFECT = '''
-All face-up spellcaster-type monsters you control gain 100 ATK for each spell card on the field..'''
-
 [card.kr-wizard]
 id = 19710002
 name = "Kamen Rider Wizard"
@@ -62,6 +55,48 @@ level = 6
 pendulum-scale = 5
 pendulum-effect = '''${WIZARDPEFFECT}'''
 type = "monster effect pendulum"
+race = "spellcaster"
+set = "kamen-rider masked-hero elemental-hero"
+effect = '''${WIZARDEFFECT}'''
+atk = 2500
+def = 1500
+
+
+
+[card.kr-wizard-prependulum]
+id = 19710012
+name = "Kamen Rider Wizard (Pre-Pendulum)"
+attribute = "fire"
+level = 7
+type = "monster effect"
+race = "spellcaster"
+set = "kamen-rider masked-hero elemental-hero"
+effect = '''${WIZARDEFFECT}'''
+atk = 2500
+def = 1500
+
+
+[card.kr-wizard2-prependulum]
+id = 197100121
+alias= 19710002
+name = "Kamen Rider Wizard (Pre-Pendulum)"
+attribute = "fire"
+level = 7
+type = "monster effect"
+race = "spellcaster"
+set = "kamen-rider masked-hero elemental-hero "
+effect = '''${WIZARDEFFECT}'''
+atk = 2500
+def = 1500
+
+
+[card.kr-wizard3-prenepndulum]
+id = 197100122
+alias= 19710002
+name = "Kamen Rider Wizard (Pre-Pendulum)"
+attribute = "fire"
+level = 6
+type = "monster effect"
 race = "spellcaster"
 set = "kamen-rider masked-hero elemental-hero"
 effect = '''${WIZARDEFFECT}'''
@@ -190,8 +225,7 @@ pendulum-effect = '''If you control "Kamen Rider Diend", you can special summon 
 type = "monster effect pendulum"
 race = "warrior"
 set = "kamen-rider destiny-hero masked-hero"
-effect = '''
-Tribute this card: Special Summon any level 8 or lower "Kamen Rider" from your hand, ignoring summoning conditions.'''
+effect = '''${DECADEEFFECT}'''
 atk = 2500
 def = 2000
 
@@ -205,7 +239,32 @@ pendulum-effect = '''If you control "Kamen Rider Decade", you can special summon
 type = "monster effect pendulum"
 race = "warrior"
 set = "kamen-rider destiny-hero masked-hero"
-effect = '''Once per turn: Special Summon a Level 4 or lower "Kamen Rider" from your deck, ignoring summoning conditions.
-(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+effect = '''${DIENDEFFECT}'''
+atk = 1500
+def = 2000
+
+
+
+[card.kr-decade-prependulum]
+id = 19710001
+name = "Kamen Rider Decade (Pre-Pendulum)"
+attribute = "dark"
+level = 7
+type = "monster effect"
+race = "warrior"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''${DECADEEFFECT}'''
+atk = 2500
+def = 2000
+
+[card.kr-diend-prependulum]
+id = 19710013
+name = "Kamen Rider Diend (Pre-Pendulum)"
+attribute = "dark"
+level = 8
+type = "monster effect"
+race = "warrior"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''${DIENDEFFECT}'''
 atk = 1500
 def = 2000
