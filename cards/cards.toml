@@ -65,6 +65,7 @@ def = 1500
 
 [card.kr-wizard-prependulum]
 id = 19710012
+alias= 19710002
 name = "Kamen Rider Wizard (Pre-Pendulum)"
 attribute = "fire"
 level = 7
@@ -246,7 +247,7 @@ def = 2000
 
 
 [card.kr-decade-prependulum]
-id = 19710001
+id = 19710011
 name = "Kamen Rider Decade (Pre-Pendulum)"
 attribute = "dark"
 level = 7
