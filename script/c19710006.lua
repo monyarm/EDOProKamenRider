@@ -25,18 +25,12 @@ function s.initial_effect(c)
   e2:SetDescription(aux.Stringid(id,0))
   e2:SetCode(EVENT_BATTLE_DAMAGE)
   e2:SetRange(LOCATION_MZONE)
-  e2:SetCondition(s.reccon)
   e2:SetTarget(s.rectg)
   e2:SetOperation(s.recop)
   c:RegisterEffect(e2)
 
 end
 
-
-function s.reccon(e,tp,eg,ep,ev,re,r,rp)
-  local ec=e:GetHandler():GetEquipTarget()
-  return ec and eg:IsContains(ec) and ep~=tp
-end
 function s.rectg(e,tp,eg,ep,ev,re,r,rp,chk)
   if chk==0 then return true end
   Duel.SetTargetPlayer(tp)
