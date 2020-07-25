@@ -18,26 +18,27 @@ function s.initial_effect(c)
   e1:SetCode(EFFECT_PIERCE)
   c:RegisterEffect(e1)
 
-  --recover
-  local e2=Effect.CreateEffect(c)
-  e2:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_F)
-  e2:SetCategory(CATEGORY_RECOVER)
-  e2:SetDescription(aux.Stringid(id,0))
-  e2:SetCode(EVENT_BATTLE_DAMAGE)
-  e2:SetRange(LOCATION_MZONE)
-  e2:SetTarget(s.rectg)
-  e2:SetOperation(s.recop)
-  c:RegisterEffect(e2)
-
-end
-
-function s.rectg(e,tp,eg,ep,ev,re,r,rp,chk)
-  if chk==0 then return true end
-  Duel.SetTargetPlayer(tp)
-  Duel.SetTargetParam(ev/2)
-  Duel.SetOperationInfo(0,CATEGORY_RECOVER,0,0,tp,ev)
-end
-function s.recop(e,tp,eg,ep,ev,re,r,rp)
-  local p,d=Duel.GetChainInfo(0,CHAININFO_TARGET_PLAYER,CHAININFO_TARGET_PARAM)
-  Duel.Recover(p,d,REASON_EFFECT)
-end
+    --recover
+    local e2=Effect.CreateEffect(c)
+    e2:SetDescription(aux.Stringid(id,0))
+    e2:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_TRIGGER_F)
+    e2:SetCategory(CATEGORY_RECOVER)
+    e2:SetCode(EVENT_BATTLE_DAMAGE)
+    e2:SetCondition(s.reccon)
+    e2:SetTarget(s.rectg)
+    e2:SetOperation(s.recop)
+    c:RegisterEffect(e2)
+  end
+  function s.reccon(e,tp,eg,ep,ev,re,r,rp)
+      return ep~=tp
+  end
+  function s.rectg(e,tp,eg,ep,ev,re,r,rp,chk)
+    if chk==0 then return true end
+    Duel.SetTargetPlayer(tp)
+    Duel.SetTargetParam(ev/2)
+    Duel.SetOperationInfo(0,CATEGORY_RECOVER,0,0,tp,ev)
+  end
+  function s.recop(e,tp,eg,ep,ev,re,r,rp)
+    local p,d=Duel.GetChainInfo(0,CHAININFO_TARGET_PLAYER,CHAININFO_TARGET_PARAM)
+    Duel.Recover(p,d,REASON_EFFECT)
+  end
