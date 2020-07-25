@@ -4,11 +4,14 @@ default: KamenRider.cdb pics
 
 
 KamenRider.cdb: cards/cards.toml cards/sets.toml cards/macro.toml config.toml
-	mkdir expansions
+	#mkdir expansions
 	ygofab make
-	mv expansions/* .
-	rmdir expansions
+	cp expansions/* .
+	#rmdir expansions
 
 pics: $(artwork) config.toml cards/cards.toml cards/sets.toml cards/macro.toml 
-	ygopic proxy artwork KamenRider.cdb pics --size 512x --ext png --year 2020 --author monyarm --field
+	#ygopic proxy artwork KamenRider.cdb pics --size 512x --ext png --year 2020 --author monyarm --field
+	ygofab compose -Pall -Eall
+	mv pics/EDOPro/* pics/
+	rmdir pics/EDOPro
 

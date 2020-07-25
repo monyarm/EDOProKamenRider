@@ -269,3 +269,11 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''${DIENDEFFECT}'''
 atk = 1500
 def = 2000
+
+[card.kamen-ride-decade]
+id = 19710014
+name = "Kamen Ride - Decade"
+type = "spell quickplay"
+effect = '''
+Tribute a face up "Masked HERO" monster. Special Summon "Kamen Rider Decade" from your hand, deck or GY.
+You can only activate "Kamen Ride - Decade" once per turn.'''
