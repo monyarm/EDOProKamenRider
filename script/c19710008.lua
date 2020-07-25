@@ -21,7 +21,7 @@ function s.initial_effect(c)
 	e2:SetCode(EFFECT_UPDATE_ATTACK)
 	e2:SetRange(LOCATION_FZONE)
 	e2:SetTargetRange(LOCATION_MZONE,LOCATION_MZONE)
-	e2:SetTarget(aux.TargetBoolFunction(Card.IsSetCard,0x1974))
+	e2:SetTarget(aux.TargetBoolFunction(Card.IsSetCard,0x620))
 	e2:SetValue(500)
 	c:RegisterEffect(e2)
 	--special summon
@@ -38,7 +38,7 @@ function s.initial_effect(c)
 	e3:SetOperation(s.operation)
 	c:RegisterEffect(e3)
 end
-s.listed_series={0xa008, 0x1974}
+s.listed_series={0xa008, 0x620}
 function s.condition(e,tp,eg,ep,ev,re,r,rp)
 	local lv=0
 	local tc=eg:GetFirst()

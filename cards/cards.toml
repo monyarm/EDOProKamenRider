@@ -58,7 +58,7 @@ id = 197100022
 alias= 19710002
 name = "Kamen Rider Wizard"
 attribute = "fire"
-level = 7
+level = 6
 pendulum-scale = 5
 pendulum-effect = '''${WIZARDPEFFECT}'''
 type = "monster effect pendulum"
@@ -135,6 +135,24 @@ This card deals piercing damage.
 atk = 1200
 def = 900
 
+
+[card.kr-kiva2]
+id = 197100061
+alias = 19710006
+name = "Kamen Rider Kiva"
+attribute = "dark"
+level = 4
+type = "monster effect"
+race = "zombie"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Kamen Rider Kiva is also trated as a Warrior-Type monster.
+When this card deals battle damage to your opponent, you gain lifepoints equal to half the damage dealt.
+This card deals piercing damage.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 1200
+def = 900
+
 [card.kr-shinobi]
 id = 19710007
 name = "Kamen Rider Shinobi"
@@ -160,3 +178,34 @@ effect = '''
 "Masked HERO" and "Kaijin" monsters gain 500 ATK.
 Once per turn, when an "Masked HERO" monster is destroyed by battle or card effect and sent to the GY: You can Special Summon 1 "Masked HERO" monster from your Deck with a Level less than or equal to that "Masked HERO" monster in the GY. 
 '''
+
+
+[card.kr-decade]
+id = 19710009
+name = "Kamen Rider Decade"
+attribute = "dark"
+level = 7
+pendulum-scale = 3
+pendulum-effect = '''If you control "Kamen Rider Diend", you can special summon this card from your pendulum zone.'''
+type = "monster effect pendulum"
+race = "spellcaster"
+set = "kamen-rider destiny-hero elemental-hero"
+effect = '''
+Tribute this card: Special Summon any level 8 or lower "Kamen Rider" from your hand, ignoring summoning conditions.'''
+atk = 2500
+def = 2000
+
+[card.kr-diend]
+id = 19710010
+name = "Kamen Rider Diend"
+attribute = "dark"
+level = 8
+pendulum-scale = 8
+pendulum-effect = '''If you control "Kamen Rider Decade", you can special summon this card from your pendulum zone.'''
+type = "monster effect pendulum"
+race = "spellcaster"
+set = "kamen-rider destiny-hero elemental-hero"
+effect = '''Once per turn: Special Summon a Level 4 or lower "Kamen Rider" from your deck, ignoring summoning conditions.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 1500
+def = 2000
