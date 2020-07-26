@@ -290,7 +290,6 @@ atk = 1500
 def = 2000
 ot = "CUSTOM ILLEGAL"
 
-# Not Yet Implemented 
 
 [card.kamen-ride-decade]
 id = 19710014
@@ -309,7 +308,9 @@ type = "spell continuous"
 effect = '''
 During your Main Phase, you can Normal Summon 1  "Kamen Rider", "Rider Gadget", "Rider Ally" or "Kajin" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) All "Masked HERO" monsters you control gain 200 ATK.'''
 ot = "CUSTOM"
+strings = ["Normal Summon (Let's Ride)"]
 
+# Not Yet Implemented 
 
 [card.kr-kuuga]
 id = 19710016
