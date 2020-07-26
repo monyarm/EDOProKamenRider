@@ -1,4 +1,4 @@
-artwork := $(wildcard artwork/*)
+artwork := $(wildcard artwork/*jpg artwork/*.png)
 
 default: KamenRider.cdb pics
 

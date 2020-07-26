@@ -305,9 +305,9 @@ ot = "CUSTOM"
 [card.lets-ride]
 id = 19710015
 name = "Let's Ride"
-type = "spell"
+type = "spell continuous"
 effect = '''
-You can conduct 2 Normal Summons/Sets this turn, not just 1. However, both monsters must be "Kamen Rider", "Dark Rider", "Another Rider", "Rider Gadget", "Rider Ally" or "Kajin" monsters'''
+During your Main Phase, you can Normal Summon 1  "Kamen Rider", "Rider Gadget", "Rider Ally" or "Kajin" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) All "Masked HERO" monsters you control gain 100 ATK.'''
 ot = "CUSTOM"
 
 
