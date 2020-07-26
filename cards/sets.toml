@@ -18,9 +18,17 @@ name = "Kaijin"
 code = 0xc619
 name = "Genesis Rider"
 
-[set.shiftcar]
+[set.rider-gadget]
 code = 0x621
-name = "shiftcar"
+name = "Rider Gadget"
+
+[set.rider-ally]
+code = 0x622
+name = "Rider Ally"
+
+[set.shiftcar]
+code = 0xa621
+name = "Shiftcar"
 
 [set.elemental-hero]
 code = 0x3008

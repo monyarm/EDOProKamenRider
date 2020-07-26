@@ -307,7 +307,7 @@ id = 19710015
 name = "Let's Ride"
 type = "spell continuous"
 effect = '''
-During your Main Phase, you can Normal Summon 1  "Kamen Rider", "Rider Gadget", "Rider Ally" or "Kajin" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) All "Masked HERO" monsters you control gain 100 ATK.'''
+During your Main Phase, you can Normal Summon 1  "Kamen Rider", "Rider Gadget", "Rider Ally" or "Kajin" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) All "Masked HERO" monsters you control gain 200 ATK.'''
 ot = "CUSTOM"
 
 
