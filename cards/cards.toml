@@ -307,7 +307,7 @@ id = 19710015
 name = "Let's Ride"
 type = "spell"
 effect = '''
-Add a "Masked HERO" monster from your deck to your hand.'''
+You can conduct 2 Normal Summons/Sets this turn, not just 1. However, both monsters must be "Kamen Rider", "Dark Rider", "Another Rider", "Rider Gadget", "Rider Ally" or "Kajin" monsters'''
 ot = "CUSTOM"
 
 
