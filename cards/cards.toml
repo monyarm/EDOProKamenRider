@@ -14,6 +14,7 @@ Saa, omae no tsumi o kazoero.
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
 atk = 2000
 def = 1800
+ot = "CUSTOM"
 
 [card.kr-wizard]
 id = 19710002
@@ -28,6 +29,7 @@ set = "kamen-rider masked-hero elemental-hero"
 effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
+ot = "CUSTOM"
 
 
 [card.kr-wizard2]
@@ -44,6 +46,7 @@ set = "kamen-rider masked-hero elemental-hero "
 effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
+ot = "CUSTOM"
 
 
 [card.kr-wizard3]
@@ -60,6 +63,7 @@ set = "kamen-rider masked-hero elemental-hero"
 effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
+ot = "CUSTOM"
 
 
 
@@ -75,6 +79,7 @@ set = "kamen-rider masked-hero elemental-hero"
 effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
+ot = "CUSTOM ILLEGAL"
 
 
 [card.kr-wizard2-prependulum]
@@ -89,6 +94,7 @@ set = "kamen-rider masked-hero elemental-hero "
 effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
+ot = "CUSTOM ILLEGAL"
 
 
 [card.kr-wizard3-prenepndulum]
@@ -103,6 +109,7 @@ set = "kamen-rider masked-hero elemental-hero"
 effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
+ot = "CUSTOM ILLEGAL"
 
 [card.kr-hibiki]
 id = 19710003
@@ -123,6 +130,7 @@ Kamen Rider Hibiki gains 1300 ATK when batting a link 3 or higher monster.
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
 atk = 2700
 def = 2000
+ot = "CUSTOM"
 
 
 [card.ongeki-henshin]
@@ -132,6 +140,7 @@ attribute= "spell"
 type = "spell ritual" 
 effect = '''
 This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
+ot = "CUSTOM"
 
 
 
@@ -153,6 +162,7 @@ Once per turn: You can detach 1 Xyz Material from this card to target 1 monster 
 (This card is always treated as a "Masked HERO", "Evil HERO" and "Kamen Rider" monster.)'''
 atk = 2500
 def = 2000
+ot = "CUSTOM"
 
 
 [card.kr-kiva]
@@ -170,6 +180,7 @@ This card deals piercing damage.
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
 atk = 1200
 def = 900
+ot = "CUSTOM"
 
 
 [card.kr-kiva2]
@@ -188,6 +199,7 @@ This card deals piercing damage.
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
 atk = 1200
 def = 900
+ot = "CUSTOM"
 
 [card.kr-shinobi]
 id = 19710007
@@ -203,6 +215,7 @@ This card can make a second attack during each Battle Phase.
 (This card is always treated as a "Masked HERO", "Destiny HERO" and "Ninja" monster.)'''
 atk = 1200
 def = 800
+ot = "CUSTOM"
 
 
 
@@ -214,6 +227,7 @@ effect = '''
 "Masked HERO" and "Kaijin" monsters gain 500 ATK.
 Once per turn, when an "Masked HERO" monster is destroyed by battle or card effect and sent to the GY: You can Special Summon 1 "Masked HERO" monster from your Deck with a Level less than or equal to that "Masked HERO" monster in the GY. 
 '''
+ot = "CUSTOM"
 
 
 [card.kr-decade]
@@ -229,6 +243,7 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''${DECADEEFFECT}'''
 atk = 2500
 def = 2000
+ot = "CUSTOM"
 
 [card.kr-diend]
 id = 19710010
@@ -243,11 +258,13 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''${DIENDEFFECT}'''
 atk = 1500
 def = 2000
+ot = "CUSTOM"
 
 
 
 [card.kr-decade-prependulum]
 id = 19710011
+alias = 19710009
 name = "Kamen Rider Decade (Pre-Pendulum)"
 attribute = "dark"
 level = 7
@@ -257,9 +274,11 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''${DECADEEFFECT}'''
 atk = 2500
 def = 2000
+ot = "CUSTOM ILLEGAL"
 
 [card.kr-diend-prependulum]
 id = 19710013
+alias = 19710010
 name = "Kamen Rider Diend (Pre-Pendulum)"
 attribute = "dark"
 level = 8
@@ -269,6 +288,9 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''${DIENDEFFECT}'''
 atk = 1500
 def = 2000
+ot = "CUSTOM ILLEGAL"
+
+# Not Yet Implemented 
 
 [card.kamen-ride-decade]
 id = 19710014
@@ -277,3 +299,41 @@ type = "spell quickplay"
 effect = '''
 Tribute a face up "Masked HERO" monster. Special Summon "Kamen Rider Decade" from your hand, deck or GY.
 You can only activate "Kamen Ride - Decade" once per turn.'''
+ot = "CUSTOM"
+
+
+[card.lets-ride]
+id = 19710015
+name = "Let's Ride"
+type = "spell"
+effect = '''
+Add a "Masked HERO" monster from your deck to your hand.'''
+ot = "CUSTOM"
+
+
+[card.kr-kuuga]
+id = 19710016
+name = "Kamen Rider Kuuga"
+attribute = "dark"
+level = 4
+type = "monster effect"
+race = "warrior"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+This card is also treated as LIGHT attribute.
+This card gains 500 ATK for each "Masked HERO" monster on the field.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 1600
+def = 800
+ot = "CUSTOM"
+
+
+[card.final-battle]
+id = 19710017
+name = "The Final Battle"
+type = "spell quickplay"
+effect = '''
+Target "Masked HERO" monster cannot be destroyed by battle or card effect, cannot be returned to the hand or deck, and you don't take battle damage from battle involving it, untill the end of the turn.
+You can tribute a face up "HERO" monster, to activate this card from your hand, during your opponent's turn.
+'''
+ot = "CUSTOM"
