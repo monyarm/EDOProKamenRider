@@ -322,10 +322,10 @@ race = "warrior"
 set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 This card is also treated as LIGHT attribute.
-This card gains 500 ATK for each "Masked HERO" monster on the field.
+This card gains 200 ATK for each monster on the opponent's side of the field.
 (This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
 atk = 1600
-def = 800
+def = 1000
 ot = "CUSTOM"
 
 
@@ -338,3 +338,41 @@ Target "Masked HERO" monster cannot be destroyed by battle or card effect, canno
 You can tribute a face up "HERO" monster, to activate this card from your hand, during your opponent's turn.
 '''
 ot = "CUSTOM"
+
+[card.rider-oma-zio]
+id = 19710018
+name = "Oma Zi-O"
+type = "monster pendulum effect"
+race = "divine-beast"
+attribute = "divine"
+set = "dark-rider genesis-rider armored-rider elemental-hero evil-hero vision-hero destiny-hero masked-hero" 
+effect = '''
+This card is also treated as a Warrior-Type monster
+(Oma Zi-O is always treated as a "Kamen Rider", "Dark Rider", "Armored Rider", "Genesis Rider", "Elemental HERO", "Destiny HERO", "Masked HERO", "Vision HERO" and "Evil HERO" monster)'''
+atk = -1
+def = -1
+pendulum-effect = '''You can special summon this card from your pendulum zone'''
+pendulum-scale = [0,13]
+level = 12
+ot = "CUSTOM"
+
+
+[card.kr-fourze]
+id = 19710019
+name = "Kamen Rider Fourze"
+attribute = "light"
+rank = 4
+type = "monster xyz effect"
+race = "warrior"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+2 level 4 Warrior monsters.
+Kamen Rider Fourze gains 200 ATK for each of its XYZ materials.
+When Kamen Rider Fourze destroys an opponent's monster by battle, you can place it under this card as an XYZ material.
+Once per turn, you can place a HERO monster from your hand or your side of the field under this card as an XYZ material.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 1000
+def = 1000
+ot = "CUSTOM"
+
+
