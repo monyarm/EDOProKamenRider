@@ -707,7 +707,7 @@ def = 800
 ot = "CUSTOM"
 
 [card.gavan]
-id = 19710041
+id = 19710040
 name = "Space Sheriff Gavan"
 attribute = "light"
 type = "monster effect"
