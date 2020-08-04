@@ -114,7 +114,7 @@ ot = "CUSTOM ILLEGAL"
 [card.kr-hibiki]
 id = 19710003
 name = "Kamen Rider Hibiki"
-attribute = "dark"
+attribute = "fire"
 level = 7
 type = "monster effect ritual"
 race = "fiend"
@@ -123,9 +123,9 @@ effect = '''
 Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
 Kamen Rider Hibiki is also treated as a Warrior-Type monster.
 
-Kamen Rider Hibiki gains 1300 ATK when batting a level 8 or higher monster.
-Kamen Rider Hibiki gains 1300 ATK when batting a rank 5 or higher monster.
-Kamen Rider Hibiki gains 1300 ATK when batting a link 3 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK while battling a level 8 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK while battling a rank 5 or higher monster.
+Kamen Rider Hibiki gains 1300 ATK while battling a link 3 or higher monster.
 
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
 atk = 2700
@@ -139,7 +139,7 @@ name = "Ongeki Henshin"
 attribute= "spell"
 type = "spell ritual" 
 effect = '''
-This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
+This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal or exceed the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
 ot = "CUSTOM"
 
 
@@ -368,11 +368,214 @@ set = "kamen-rider elemental-hero masked-hero"
 effect = '''
 2 level 4 Warrior monsters.
 Kamen Rider Fourze gains 200 ATK for each of its XYZ materials.
-When Kamen Rider Fourze destroys an opponent's monster by battle, you can place it under this card as an XYZ material.
-Once per turn, you can place a HERO monster from your hand or your side of the field under this card as an XYZ material.
+When Kamen Rider Fourze destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
+Once per turn, you can attach a "HERO" or "Rider Ally" monster from your hand or your side of the field to this card as an XYZ material.
 (This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
 atk = 1000
 def = 1000
 ot = "CUSTOM"
 
 
+
+[card.castle-doran]
+id = 19710020
+name = "Castle Doran"
+attribute = "earth"
+rank = 8
+type = "monster pendulum effect"
+race = "dragon"
+set = "rider-ally"
+pendulum-scale = 2
+pendulum-effect = '''Castle Doran can be played as a field-spell with the following effect:"All "Vampire" monsters on your side of the field gain 500 ATK. When a "Vampire" monster destroys an opponent's monster by battle, you gain life points equal to half the damage dealt. You can tribute 2 monsters on your side of the field, to Special Summon this card from the field-spell zone.".'''
+effect = '''
+Once per turn: You can tribute a face-up "Vampire" monster you control, and deal damage to your opponent equal to half that monster's ATK.
+(This card is always treated as a "Rider Ally" .)'''
+atk = 3000
+def = 2500
+ot = "CUSTOM"
+
+
+
+[card.kr-sabaki]
+id = 19710021
+name = "Kamen Rider Sabaki"
+attribute = "fire"
+level = 6
+type = "monster effect ritual"
+race = "fiend"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
+Kamen Rider Sabaki is also treated as a Warrior-Type monster.
+Kamen Rider Sabaki gains 600 ATK while battling a level 8 or higher monster.
+Kamen Rider Sabaki gains 600 ATK while battling a rank 5 or higher monster.
+Kamen Rider Sabaki gains 600 ATK while battling a link 3 or higher monster.
+When this card destroys an opponent's monster by battle, target 1 spell/trap on your opponent's side of the field, destroy that card.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 2400
+def = 2000
+ot = "CUSTOM"
+
+
+
+[card.kr-nadeshiko]
+id = 19710022
+name = "Kamen Rider Nadeshiko"
+attribute = "light"
+rank = 2
+type = "monster xyz effect"
+race = "fairy"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+2 level 2 LIGHT monsters.
+Kamen Rider Nadeshiko is also a Warrior-Type monster.
+Kamen Rider Nadeshiko gains 200 ATK for each of its XYZ materials.
+When Kamen Rider Nadeshiko destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
+When this card leaves the field, attach it and all XYZ materials attached to it to a XYZ monster on your side of the field.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 800
+def = 400
+ot = "CUSTOM"
+
+[card.kr-den-o-sword]
+id = 19710023
+name = "Kamen Rider Den-O Sword Form"
+attribute = "fire"
+rank = 3
+type = "monster effect"
+race = "fiend"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+Kamen Rider Den-O Sword Form is also a Warrior-Type monster.
+When this card destroys and opoonent's monster by battle, your opponent chooses one monster on their side of the field, banish it, and deal damage to your opponent equal to it's level x 200.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 1800
+def = 0
+ot = "CUSTOM"
+
+[card.kr-den-o-Rod]
+id = 19710024
+name = "Kamen Rider Den-O Rod Form"
+attribute = "water"
+rank = 3
+type = "monster effect"
+race = "fiend"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+Once per turn, look at the top card of your deck, you may place it on the top or bottom of your deck. Once per turn, send the top card of your deck to the graveyard, draw 1 card.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 1400
+def = 1600
+ot = "CUSTOM"
+
+[card.seed-of-agito]
+id = 19710025
+name = "Seed of Agito"
+type = "spell"
+effect = '''
+Special Summon from your hand, deck or GY, an "Agito" monster. It cannot attack the turn it is summoned by this effect.'''
+ot = "CUSTOM"
+
+
+
+[card.treasure-sniper]
+id = 19710026
+name = "Treasure Sniper"
+type = "spell"
+effect = '''
+Add a "Kamen Rider" card from your deck or your opponent's graveyard to your hand.'''
+ot = "CUSTOM"
+
+[card.zwei-vunche]
+id = 19710027
+name = "Der Schnittpunkt von zwei Wünschen"
+type = "spell"
+effect = '''If your opponent controlls a "Greeed" or "Yummy" monster, destroy it. 
+Add a "Kamen Rider OOO" or "Greeed" or "Yummy" card from your deck to your hand and Special Summon from your hand or your opponent's graveyard a "Kamen Rider OOO" or "Greeed" monster'''
+ot = "CUSTOM"
+
+
+[card.kr-ex-aid-hyper-muteki]
+id = 19710028
+name = "Kamen Rider Ex-Aid Hyper Muteki"
+attribute = "divine"
+link-rating = 6
+link-arrows = "top bottom-left bottom bottom-right left right"
+type = "monster link pendulum effect"
+race = "cyberse"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+1+ "Kamen Rider" or "Bugster Virus" monsters
+Kamen Rider Ex-Aid Hyper Muteki is also a Warrior-Type monster.
+During the Battle Step, if this card battles an opponent's monster (Quick Effect): You can target that opponent's monster; banish both this card from the field and that target. Return those banished monsters to the field at the end of the Battle Phase, and if you banished a Link Monster, this card gains ATK equal to 500 * it's Link Rating.
+If this card is destroyed by battle or removed from the field by your opponent's card effect: You can place this card in your Pendulum Zone.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+pendulum-effect = '''
+Once per turn (Quick Effect): Target "Kamen Rider" monster you controll gains 1000 ATK and cannot be destroyed by battle or card effects untill the end of turn.
+'''
+pendulum-scale = [0,13]
+
+atk = 3500
+ot = "CUSTOM"
+
+
+[card.our-power]
+id = 19710029
+name = "This is our power"
+type = "spell quickplay"
+effect = '''When a "HERO" or "Rider Ally" monster on your side of the field is destroyed by battle or your opponent's card effect, equip the destroyed monster to target "Kamen Rider" monster on your side of the field. As long as it's equipped, the target monster gains the ATK, DEF and all effects of the equipped monster.'''
+ot = "CUSTOM"
+
+
+
+[card.kr-ex-aid-poppy]
+id = 19710030
+name = "Kamen Rider Poppy"
+attribute = "divine"
+link-rating = 2
+link-arrows = "left right"
+type = "monster link effect"
+race = "cyberse"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+1+ "Kamen Rider" or "Bugster Virus" monster
+Kamen Rider Poppy is also a Warrior-Type monster.
+All "Masked HERO" monsters on your side of the field gain 500 ATK/DEF.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+
+atk = 1600
+ot = "CUSTOM"
+
+[card.kikaida-reboot]
+id = 19710031
+name = "Kikaider REBOOT"
+attribute = "earth"
+type = "monster effect"
+level = 4
+race = "machine"
+set = "rider-ally destiny-hero"
+effect = '''
+If a "Kamen Rider" monster would be destroyed by battle, you can negate the destruction and special summon this card from your hand.
+All Plant-Type "Kamen Rider" monsters you control gain 800 ATK.
+All Machine-Type monsters your opponent controls lose 1000 ATK.
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
+
+atk = 1500
+ot = "CUSTOM"
+
+
+[card.zubat]
+id = 19710032
+name = "Zubat"
+attribute = "wind"
+type = "monster effect"
+level = 4
+race = "warrior"
+set = "rider-ally destiny-hero"
+effect = '''
+If a "Kamen Rider" monster would be destroyed by battle, you can negate the destruction and special summon this card from your hand.
+All "Kamen Rider" monsters you control gain 200 ATK.
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
+
+atk = 1700
+ot = "CUSTOM"

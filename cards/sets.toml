@@ -2,6 +2,14 @@
 code = 0x619
 name = "Kamen Rider"
 
+[set.sentai]
+code = 0x719
+name = "Sentai"
+
+[set.sentai-ally]
+code = 0x722
+name = "Sentai Ally"
+
 [set.dark-rider]
 code = 0xa619
 name = "Dark Rider"
