@@ -787,7 +787,7 @@ ot = "CUSTOM"
 
 
 [card.kr-gaim]
-id = 197100049
+id = 19710049
 name = "Kamen Rider Gaim"
 attribute = "earth"
 level = 4
@@ -803,7 +803,7 @@ def = 1200
 ot = "CUSTOM"
 
 [card.kr-skull]
-id = 197100050
+id = 19710050
 name = "Kamen Rider Skull"
 attribute = "dark"
 level = 8
@@ -819,7 +819,7 @@ ot = "CUSTOM"
 
 
 [card.kr-ixa]
-id = 197100051
+id = 19710051
 name = "Kamen Rider Ixa"
 attribute = "light"
 level = 4
