@@ -67,50 +67,6 @@ ot = "CUSTOM"
 
 
 
-[card.kr-wizard-prependulum]
-id = 19710012
-alias= 19710002
-name = "Kamen Rider Wizard (Pre-Pendulum)"
-attribute = "fire"
-level = 7
-type = "monster effect"
-race = "spellcaster"
-set = "kamen-rider masked-hero elemental-hero"
-effect = '''${WIZARDEFFECT}'''
-atk = 2500
-def = 1500
-ot = "CUSTOM ILLEGAL"
-
-
-[card.kr-wizard2-prependulum]
-id = 197100121
-alias= 19710002
-name = "Kamen Rider Wizard (Pre-Pendulum)"
-attribute = "fire"
-level = 7
-type = "monster effect"
-race = "spellcaster"
-set = "kamen-rider masked-hero elemental-hero "
-effect = '''${WIZARDEFFECT}'''
-atk = 2500
-def = 1500
-ot = "CUSTOM ILLEGAL"
-
-
-[card.kr-wizard3-prenepndulum]
-id = 197100122
-alias= 19710002
-name = "Kamen Rider Wizard (Pre-Pendulum)"
-attribute = "fire"
-level = 7
-type = "monster effect"
-race = "spellcaster"
-set = "kamen-rider masked-hero elemental-hero"
-effect = '''${WIZARDEFFECT}'''
-atk = 2500
-def = 1500
-ot = "CUSTOM ILLEGAL"
-
 [card.kr-hibiki]
 id = 19710003
 name = "Kamen Rider Hibiki"
@@ -260,37 +216,6 @@ atk = 1500
 def = 2000
 ot = "CUSTOM"
 
-
-
-[card.kr-decade-prependulum]
-id = 19710011
-alias = 19710009
-name = "Kamen Rider Decade (Pre-Pendulum)"
-attribute = "dark"
-level = 7
-type = "monster effect"
-race = "warrior"
-set = "kamen-rider destiny-hero masked-hero"
-effect = '''${DECADEEFFECT}'''
-atk = 2500
-def = 2000
-ot = "CUSTOM ILLEGAL"
-
-[card.kr-diend-prependulum]
-id = 19710013
-alias = 19710010
-name = "Kamen Rider Diend (Pre-Pendulum)"
-attribute = "dark"
-level = 8
-type = "monster effect"
-race = "warrior"
-set = "kamen-rider destiny-hero masked-hero"
-effect = '''${DIENDEFFECT}'''
-atk = 1500
-def = 2000
-ot = "CUSTOM ILLEGAL"
-
-
 [card.kamen-ride-decade]
 id = 19710014
 name = "Kamen Ride - Decade"
@@ -345,10 +270,10 @@ name = "Oma Zi-O"
 type = "monster pendulum effect"
 race = "divine-beast"
 attribute = "divine"
-set = "dark-rider genesis-rider armored-rider elemental-hero evil-hero vision-hero destiny-hero masked-hero" 
+set = "dark-rider elemental-hero evil-hero vision-hero destiny-hero masked-hero" 
 effect = '''
 This card is also treated as a Warrior-Type monster
-(Oma Zi-O is always treated as a "Kamen Rider", "Dark Rider", "Armored Rider", "Genesis Rider", "Elemental HERO", "Destiny HERO", "Masked HERO", "Vision HERO" and "Evil HERO" monster)'''
+(Oma Zi-O is always treated as a "Kamen Rider", "Dark Rider", "Elemental HERO", "Destiny HERO", "Masked HERO", "Vision HERO" and "Evil HERO" monster)'''
 atk = -1
 def = -1
 pendulum-effect = '''You can special summon this card from your pendulum zone'''
@@ -442,12 +367,13 @@ ot = "CUSTOM"
 id = 19710023
 name = "Kamen Rider Den-O Sword Form"
 attribute = "fire"
-rank = 3
+level = 3
 type = "monster effect"
 race = "fiend"
 set = "kamen-rider elemental-hero masked-hero"
 effect = '''
 Kamen Rider Den-O Sword Form is also a Warrior-Type monster.
+This cards name is treated as "Kamen Rider Den-O" while in your hand, field or GY.
 When this card destroys and opoonent's monster by battle, your opponent chooses one monster on their side of the field, banish it, and deal damage to your opponent equal to it's level x 200.
 (This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
 atk = 1800
@@ -458,11 +384,13 @@ ot = "CUSTOM"
 id = 19710024
 name = "Kamen Rider Den-O Rod Form"
 attribute = "water"
-rank = 3
+level = 3
 type = "monster effect"
 race = "fiend"
 set = "kamen-rider elemental-hero masked-hero"
 effect = '''
+Kamen Rider Den-O Rod Form is also a Warrior-Type monster.
+This cards name is treated as "Kamen Rider Den-O" while in your hand, field or GY.
 Once per turn, look at the top card of your deck, you may place it on the top or bottom of your deck. Once per turn, send the top card of your deck to the graveyard, draw 1 card.
 (This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
 atk = 1400
@@ -491,7 +419,7 @@ ot = "CUSTOM"
 id = 19710027
 name = "Der Schnittpunkt von zwei Wünschen"
 type = "spell"
-effect = '''If your opponent controlls a "Greeed" or "Yummy" monster, destroy it. 
+effect = '''If your opponent controls a "Greeed" or "Yummy" monster, destroy it. 
 Add a "Kamen Rider OOO" or "Greeed" or "Yummy" card from your deck to your hand and Special Summon from your hand or your opponent's graveyard a "Kamen Rider OOO" or "Greeed" monster'''
 ot = "CUSTOM"
 
@@ -556,6 +484,7 @@ level = 4
 race = "machine"
 set = "rider-ally destiny-hero"
 effect = '''
+This card is also treated as a Warrior-Type monster.
 When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All Plant-Type "Kamen Rider" monsters you control gain 800 ATK.
 All Machine-Type monsters your opponent controls lose 1000 ATK.
@@ -578,7 +507,6 @@ effect = '''
 When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "Kamen Rider" monsters you control gain 200 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
-
 atk = 1700
 def = 1300
 ot = "CUSTOM"
@@ -789,4 +717,152 @@ When a "Kamem Rider" monster on your side of the field is destroyed by battle, y
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 2800
 def = 800
+ot = "CUSTOM"
+
+[card.inazuman]
+id = 19710045
+name = "Inazuman"
+attribute = "light"
+type = "monster effect"
+level = 4
+race = "thunder"
+set = "rider-ally elemental-hero"
+effect = '''
+This card is also treated as a Warrior-Type monster.
+When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+All "Kamen Rider" monsters you control gain 200 ATK.
+(This card is always treated as a "Rider Ally" and "Elemental HERO".)'''
+
+[card.kikaida-01]
+id = 19710046
+name = "Kikaider 01"
+attribute = "light"
+type = "monster effect"
+level = 4
+race = "machine"
+set = "rider-ally destiny-hero"
+effect = '''
+This card is also treated as a Warrior-Type monster.
+When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+All "Kamen Rider" monsters you control gain 200 ATK.
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
+atk = 1700
+def = 1300
+ot = "CUSTOM"
+
+[card.kikaida]
+id = 19710047
+name = "Kikaider"
+attribute = "light"
+type = "monster effect"
+level = 4
+race = "machine"
+set = "rider-ally destiny-hero"
+effect = '''
+This card is also treated as a Warrior-Type monster.
+When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+All "Kamen Rider" monsters you control gain 200 ATK.
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
+atk = 1700
+def = 1300
+ot = "CUSTOM"
+
+[card.gokaired]
+id = 19710048
+name = "Captain Marvelous"
+attribute = "light"
+type = "monster effect"
+level = 5
+race = "warrior"
+set = "rider-ally destiny-hero"
+effect = '''
+This card's name is treated as "Kaizoku Sentai Gokaiger - Gokai Red"
+When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+All "HERO" monsters you control gain 200 ATK.
+Once per turn, (Quick Effect) you can return this card to your deck, and special summon from your hand or GY, one level 6 or lower "HERO" monster.
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
+atk = 2100
+def = 1400
+ot = "CUSTOM"
+
+
+[card.kr-gaim]
+id = 197100049
+name = "Kamen Rider Gaim"
+attribute = "earth"
+level = 4
+type = "monster effect"
+race = "plant"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Kamen Rider Gaim is also trated as a Warrior-Type monster.
+When battling Plant-Type monsters, this card gains 1200 ATK during damage calculation only.
+(This card is always treated as both a "Masked HERO" and "Elemental HERO" monster.)'''
+atk = 1800
+def = 1200
+ot = "CUSTOM"
+
+[card.kr-skull]
+id = 197100050
+name = "Kamen Rider Skull"
+attribute = "dark"
+level = 8
+type = "monster effect"
+race = "warrior"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+When this card destroys an opponents monster by battle, deal 1000 points of effect damage to your opponent.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 2800
+def = 1800
+ot = "CUSTOM"
+
+
+[card.kr-ixa]
+id = 197100051
+name = "Kamen Rider Ixa"
+attribute = "light"
+level = 4
+type = "monster effect"
+race = "warrior"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Gains 200 ATK for each "Kaijin" or "Dark Rider" monster your opponent controls or is in their GY. Once per turn, (Quick Effect): Destroy an equip spell you control, destroy target monster your opponent controls.
+(This card is always treated as both a "Masked HERO", "Destiny HERO" and "Noble Knight" monster.)'''
+atk = 1800
+def = 1800
+ot = "CUSTOM"
+
+
+[card.kr-den-o-axe]
+id = 19710052
+name = "Kamen Rider Den-O Axe Form"
+attribute = "Earth"
+level = 3
+type = "monster effect"
+race = "fiend"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+Kamen Rider Den-O Axe Form is also a Warrior-Type monster.
+This cards name is treated as "Kamen Rider Den-O" while in your hand, field or GY. This card cannot be destroyed by battle. You take no battle damage from attacks involving this monster. If this card battles an opponent's monster and doesn't destroy it, your opponent must sacrifice it.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 1600
+def = 2200
+ot = "CUSTOM"
+
+[card.kr-gills]
+id = 19710053
+name = "Kamen Rider Den-O Axe Form"
+attribute = "dark"
+level = 4
+type = "monster effect"
+race = "fairy"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+Kamen Rider Gills - Imperfect Agito is also a Warrior-Type monster.
+This card's name is always treated as "Kamen Rider Gills - Imperfect Agito"
+When this card destroys an opponent's monster by battle, it gains ATK equal to the difference between their levels X 100, then deal 200 points of effect damage to your opponent.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 1700
+def = 1200
 ot = "CUSTOM"
