@@ -14,17 +14,14 @@ name = "Sentai Ally"
 code = 0xa619
 name = "Dark Rider"
 
-[set.armored-rider]
+[set.another-rider]
 code = 0xb619
-name = "Armored Rider"
+name = "Another Rider"
 
 [set.kaijin]
 code = 0x620
 name = "Kaijin"
 
-[set.genesis-rider]
-code = 0xc619
-name = "Genesis Rider"
 
 [set.rider-gadget]
 code = 0x621

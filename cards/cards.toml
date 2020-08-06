@@ -15,6 +15,7 @@ Saa, omae no tsumi o kazoero.
 atk = 2000
 def = 1800
 ot = "CUSTOM"
+author = "masarou"
 
 [card.kr-wizard]
 id = 19710002
@@ -30,6 +31,7 @@ effect = '''${WIZARDEFFECT}'''
 atk = 2500
 def = 1500
 ot = "CUSTOM"
+artist = "sennsu"
 
 
 [card.kr-wizard2]
@@ -87,7 +89,7 @@ Kamen Rider Hibiki gains 1300 ATK while battling a link 3 or higher monster.
 atk = 2700
 def = 2000
 ot = "CUSTOM"
-
+author = "funbolt"
 
 [card.ongeki-henshin]
 id = 19710004
@@ -97,6 +99,7 @@ type = "spell ritual"
 effect = '''
 This card can be used to Ritual Summon any "Kamen Rider" Ritual Monster. You must also Tribute monsters from your hand or field, whose total Levels equal or exceed the Level of the "Kamen Rider" Ritual Monster you Ritual Summon.'''
 ot = "CUSTOM"
+author = "こず"
 
 
 
@@ -119,7 +122,7 @@ Once per turn: You can detach 1 Xyz Material from this card to target 1 monster 
 atk = 2500
 def = 2000
 ot = "CUSTOM"
-
+author = "funbolt"
 
 [card.kr-kiva]
 id = 19710006
@@ -137,6 +140,7 @@ This card deals piercing damage.
 atk = 1200
 def = 900
 ot = "CUSTOM"
+author = "myojo_SD"
 
 
 [card.kr-kiva2]
@@ -172,6 +176,7 @@ This card can make a second attack during each Battle Phase.
 atk = 1200
 def = 800
 ot = "CUSTOM"
+author = "ウロロギ"
 
 
 
@@ -184,6 +189,7 @@ effect = '''
 Once per turn, when an "Masked HERO" monster is destroyed by battle or card effect and sent to the GY: You can Special Summon 1 "Masked HERO" monster from your Deck with a Level less than or equal to that "Masked HERO" monster in the GY. 
 '''
 ot = "CUSTOM"
+author = "Kamen Rider Decade"
 
 
 [card.kr-decade]
@@ -200,6 +206,7 @@ effect = '''${DECADEEFFECT}'''
 atk = 2500
 def = 2000
 ot = "CUSTOM"
+author = "おぶい / Obui"
 
 [card.kr-diend]
 id = 19710010
@@ -215,6 +222,7 @@ effect = '''${DIENDEFFECT}'''
 atk = 1500
 def = 2000
 ot = "CUSTOM"
+author = "あーる。"
 
 [card.kamen-ride-decade]
 id = 19710014
@@ -224,7 +232,7 @@ effect = '''
 Tribute a face up "Masked HERO" monster. Special Summon "Kamen Rider Decade" from your hand, deck or GY.
 You can only activate "Kamen Ride - Decade" once per turn.'''
 ot = "CUSTOM"
-
+author = "Yuta坊"
 
 [card.lets-ride]
 id = 19710015
@@ -234,7 +242,7 @@ effect = '''
 During your Main Phase, you can Normal Summon 1  "Kamen Rider", "Rider Gadget", "Rider Ally" or "Kajin" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) All "Masked HERO" monsters you control gain 200 ATK.'''
 ot = "CUSTOM"
 strings = ["Normal Summon (Let's Ride)"]
-
+author = "マスクド"
 # Not Yet Implemented 
 
 [card.kr-kuuga]
@@ -252,6 +260,7 @@ This card gains 200 ATK for each monster on the opponent's side of the field.
 atk = 1600
 def = 1000
 ot = "CUSTOM"
+author = "マスクド"
 
 
 [card.final-battle]
@@ -263,6 +272,7 @@ Target "Masked HERO" monster cannot be destroyed by battle or card effect, canno
 You can tribute a face up "HERO" monster, to activate this card from your hand, during your opponent's turn.
 '''
 ot = "CUSTOM"
+author = "マスクド"
 
 [card.rider-oma-zio]
 id = 19710018
@@ -280,6 +290,7 @@ pendulum-effect = '''You can special summon this card from your pendulum zone'''
 pendulum-scale = [0,13]
 level = 12
 ot = "CUSTOM"
+author = "ryukawa"
 
 
 [card.kr-fourze]
@@ -299,6 +310,7 @@ Once per turn, you can attach a "HERO" or "Rider Ally" monster from your hand or
 atk = 1000
 def = 1000
 ot = "CUSTOM"
+author = "Masked"
 
 
 
@@ -319,7 +331,7 @@ Once per turn: You can tribute a face-up "Vampire" monster you control, and deal
 atk = 3000
 def = 2500
 ot = "CUSTOM"
-
+author = "SO"
 
 
 [card.kr-sabaki]
@@ -341,7 +353,7 @@ When this card destroys an opponent's monster by battle, target 1 spell/trap on 
 atk = 2400
 def = 2000
 ot = "CUSTOM"
-
+artist = "funbolt"
 
 
 [card.kr-nadeshiko]
@@ -362,6 +374,7 @@ When this card leaves the field, attach it and all XYZ materials attached to it 
 atk = 800
 def = 400
 ot = "CUSTOM"
+artist = "Katsura Fukuzou"
 
 [card.kr-den-o-sword]
 id = 19710023
@@ -485,7 +498,7 @@ race = "machine"
 set = "rider-ally destiny-hero"
 effect = '''
 This card is also treated as a Warrior-Type monster.
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All Plant-Type "Kamen Rider" monsters you control gain 800 ATK.
 All Machine-Type monsters your opponent controls lose 1000 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
@@ -504,7 +517,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "Kamen Rider" monsters you control gain 200 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1700
@@ -520,7 +533,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All Insect-Type "Kamen Rider" monsters you control gain 800 ATK.
 All "Kaijin" monsters your opponent controls lose 1000 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
@@ -539,10 +552,10 @@ type = "monster effect"
 race = "warrior"
 set = "rider-ally destiny-hero ninja"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 This card can make a second attack during each Battle Phase.
 
-(This card is always treated as a "Rider Ally", "Destiny HERO" and "Ninja" monster.)'''
+(This card is always treated as a "Rider Ally" and "Destiny HERO" monster.)'''
 atk = 1200
 def = 800
 ot = "CUSTOM"
@@ -556,7 +569,7 @@ type = "monster effect"
 race = "warrior"
 set = "rider-ally destiny-hero ninja"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All Spellcaster-Type "Kamen Rider" monsters you control gain 800 ATK.
 All Fiend-Type monsters your opponent controls lose 1000 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO"  monster.)'''
@@ -575,7 +588,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "Kamen Rider" monsters you control gain 200 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 
@@ -592,7 +605,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "Kamen Rider" monsters you control gain 200 ATK.
 This card gains 1000 ATK when battling a monster with higher ATK than it.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
@@ -610,7 +623,7 @@ level = 10
 race = "machine"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 
 atk = 3600
@@ -626,7 +639,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 Once per turn: take control of an opponent's monster untill the end of the turn, it cannot attack, and it's effects are negated.
 (This card is always treated as a "Rider Ally", "Destiny HERO" and "Marvel HERO".)'''
 
@@ -643,7 +656,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 When you declare an attack with this card, it gains 500 ATK untill the end of the turn.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 
@@ -660,7 +673,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 When you declare an attack with this card, it gains 500 ATK untill the end of the turn.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 
@@ -677,7 +690,7 @@ level = 4
 race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 When you declare an attack with this card, it gains 500 ATK untill the end of the turn.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 
@@ -695,7 +708,7 @@ race = "fairy"
 set = "rider-ally destiny-hero"
 effect = '''
 Ultraman is also treated as a Warrior-Type monster.
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 
 atk = 2500
@@ -713,7 +726,7 @@ set = "rider-ally destiny-hero"
 effect = '''
 Ultraman Taro is also treated as a Warrior-Type monster.
 Ultraman Taro is also treated as a LIGHT monster.
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 2800
 def = 800
@@ -729,7 +742,7 @@ race = "thunder"
 set = "rider-ally elemental-hero"
 effect = '''
 This card is also treated as a Warrior-Type monster.
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "Kamen Rider" monsters you control gain 200 ATK.
 (This card is always treated as a "Rider Ally" and "Elemental HERO".)'''
 
@@ -743,7 +756,7 @@ race = "machine"
 set = "rider-ally destiny-hero"
 effect = '''
 This card is also treated as a Warrior-Type monster.
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "Kamen Rider" monsters you control gain 200 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1700
@@ -760,7 +773,7 @@ race = "machine"
 set = "rider-ally destiny-hero"
 effect = '''
 This card is also treated as a Warrior-Type monster.
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "Kamen Rider" monsters you control gain 200 ATK.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1700
@@ -777,7 +790,7 @@ race = "warrior"
 set = "rider-ally destiny-hero"
 effect = '''
 This card's name is treated as "Kaizoku Sentai Gokaiger - Gokai Red"
-When a "Kamem Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
 All "HERO" monsters you control gain 200 ATK.
 Once per turn, (Quick Effect) you can return this card to your deck, and special summon from your hand or GY, one level 6 or lower "HERO" monster.
 (This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
@@ -852,7 +865,7 @@ ot = "CUSTOM"
 
 [card.kr-gills]
 id = 19710053
-name = "Kamen Rider Den-O Axe Form"
+name = "Kamen Rider Gills"
 attribute = "dark"
 level = 4
 type = "monster effect"
@@ -866,3 +879,136 @@ When this card destroys an opponent's monster by battle, it gains ATK equal to t
 atk = 1700
 def = 1200
 ot = "CUSTOM"
+
+
+[card.kr-meteor]
+id = 19710054
+name = "Kamen Rider Meteor"
+attribute = "light"
+rank = 3
+type = "monster xyz effect"
+race = "warrior"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+2 level 3 monsters.
+When this card destroys an  opponent's monster by battle, detach an XYZ material from this card, banish the destroyed monster, and one random card in your opponent's hand.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 1700
+def = 1200
+ot = "CUSTOM"
+
+[card.kr-zero-one]
+id = 19710055
+name = "Kamen Rider Zero-One"
+attribute = "light"
+rank = 4
+type = "monster effect"
+race = "cyberse"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+This card is also a Warrior-Type monster.
+Kamen Rider Zero-One can attack your opponent directly, however it only deals half damage when doing so.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 1600
+def = 1200
+ot = "CUSTOM"
+
+[card.kr-zero-one-flaming-tiger]
+id = 19710056
+name = "Kamen Rider Zero-One - Flaming Tiger"
+attribute = "fire"
+rank = 4
+type = "monster effect"
+race = "cyberse"
+set = "kamen-rider destiny-hero elemental-hero masked-hero"
+effect = '''
+This card is also a Warrior-Type monster.
+This cards name is treated as "Kamen Rider Zero-One" while in your hand, field or GY.
+When this card destroys an opponent's monster by battle, deal 500 points of damage to your opponent.
+(This card is always treated as a "Masked HERO", "Elemental HERO" and "Destiny HERO" .)'''
+atk = 1900
+def = 1000
+ot = "CUSTOM"
+
+[card.kr-zero-one-biting-shark]
+id = 19710057
+name = "Kamen Rider Zero-One - Biting Shark"
+attribute = "water"
+level = 3
+type = "monster effect"
+race = "cyberse"
+set = "kamen-rider destiny-hero elemental-hero masked-hero"
+effect = '''
+This card is also a Warrior-Type monster.
+This cards name is treated as "Kamen Rider Zero-One" while in your hand, field or GY.
+This card deals piercing damage. If "Umi" is on the field, this card gains 800 ATK.
+(This card is always treated as a "Masked HERO", "Elemental HERO" and "Destiny HERO" .)'''
+atk = 1200
+def = 1000
+ot = "CUSTOM"
+
+
+[card.kivatiii]
+id = 19710058
+name = "Kivat Bat the III"
+attribute = "dark"
+level = 2
+type = "monster effect"
+race = "beast"
+set = "rider-ally"
+effect = '''
+You can tribute this card: Special Summon 1 "Kamen Rider Kiva" from your hand, deck, or GY.
+(This card is always treated as a "Rider Ally" monster.)'''
+atk = 1000
+def = 0
+ot = "CUSTOM"
+
+[card.kr-eternaljoker]
+id = 19710059
+name = "Kamen Rider Eternal Joker"
+attribute = "dark"
+level = 8
+type = "monster fusion effect"
+race = "warrior"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+"Kamen Rider Eternal" + "Kamen RIder Joker"
+This card is also LIGHT attribute. This card cannot be destroyed by battle. When this card destroys an opponent's monster by battle, your opponent discards one card.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 3000
+def = 2500
+ot = "CUSTOM"
+author = "おぶい / Obui"
+
+[card.another-W]
+id = 19710060
+name = "Another W"
+attribute = "dark"
+level = 8
+type = "monster fusion effect"
+race = "warrior"
+set = "dark-rider another-rider masked-hero evil-hero"
+effect = '''
+1 DARK monster + 1 WIND monster.
+This card is also WIND attribute. When this card is fusion summoned, remove from play all "Kamen Rider W", "Kamen Rider Joker" and "Kamen Rider Cyclone" monsters in your opponent's hand, deck, field, GY and extra deck. Cannot be destroyed by battle, except by "Kamen Rider W", cannot be removed from the field, have it's position changed, or have it's ATK lowered by your opponent's card effect.
+(This card is always treated as a "Masked HERO", "Evil HERO", "Another Rider" and "Dark Rider" monster.)'''
+atk = 2800
+def = 2500
+ot = "CUSTOM"
+author = "真平@お仕事募集中"
+
+[card.another-kabuto]
+id = 19710061
+name = "Another Kabuto"
+attribute = "dark"
+level = 6
+type = "monster fusion effect"
+race = "insect"
+set = "dark-rider another-rider masked-hero evil-hero"
+effect = '''
+This card is also Warrior-Type. This card is also WIND attribute. When this card is fusion summoned, remove from play all "Kamen Rider Kabuto" and "Dark Rider Dark Kabuto" monsters in your opponent's hand, deck, field, GY and extra deck. Cannot be destroyed by battle, except by "Kamen Rider Kabuto", cannot be removed from the field, have it's position changed, or have it's ATK lowered by your opponent's card effect. Another Kabuto can attack your opponent directly, however he only deals half damage when doing so.
+(This card is always treated as a "Masked HERO", "Evil HERO", "Another Rider" and "Dark Rider" monster.)'''
+atk = 2400
+def = 2000
+ot = "CUSTOM"
+author = "真平@お仕事募集中"
