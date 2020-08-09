@@ -449,6 +449,7 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 1+ "Kamen Rider" or "Bugster Virus" monsters
 Kamen Rider Ex-Aid Hyper Muteki is also a Warrior-Type monster.
+This card's name is treated as "Kamen Rider Ex-Aid" while in your hand, GY or field.
 During the Battle Step, if this card battles an opponent's monster (Quick Effect): You can target that opponent's monster; banish both this card from the field and that target. Return those banished monsters to the field at the end of the Battle Phase, and if you banished a Link Monster, this card gains ATK equal to 500 * it's Link Rating.
 If this card is destroyed by battle or removed from the field by your opponent's card effect: You can place this card in your Pendulum Zone.
 (This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
@@ -783,7 +784,7 @@ ot = "CUSTOM"
 [card.gokaired]
 id = 19710048
 name = "Captain Marvelous"
-attribute = "light"
+attribute = "fire"
 type = "monster effect"
 level = 5
 race = "warrior"
@@ -1002,7 +1003,7 @@ id = 19710061
 name = "Another Kabuto"
 attribute = "dark"
 level = 6
-type = "monster fusion effect"
+type = "monster effect"
 race = "insect"
 set = "dark-rider another-rider masked-hero evil-hero"
 effect = '''
@@ -1012,3 +1013,168 @@ atk = 2400
 def = 2000
 ot = "CUSTOM"
 author = "真平@お仕事募集中"
+
+[card.kr-sasword]
+id = 19710062
+name = "Kamen Rider Sasword"
+attribute = "dark"
+rank = 6
+type = "monster effect"
+race = "insect"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+This card is also a Warrior-Type monster.
+If this monster destroys your opponent's monster by battle, deal 300 points of damage to your opponent.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 2400
+def = 800
+ot = "CUSTOM"
+
+[card.kr-sasword-masked]
+id = 19710063
+name = "Kamen Rider Sasword (Masked)"
+attribute = "dark"
+rank = 4
+type = "monster effect"
+race = "insect"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+This card is also a Warrior-Type monster.
+This card's name is always treated as "Kamen Rider Sasword"
+If this card is destroyed by battle or your opponent's card effect, you can banish it: Special Summon from you hand, deck or GY a level 6 "Kamen Rider Sasword".
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 800
+def = 2400
+ot = "CUSTOM"
+
+[card.kr-femme]
+id = 19710064
+name = "Kamen Rider Femme"
+attribute = "light"
+rank = 4
+type = "monster effect"
+race = "winged-beast"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+This card is also a Warrior-Type monster.
+When this card is Normal Summoned or Special Summoned: discard 1 card, Special Summon "Blancwing" from your hand, deck or GY. If this card is equipped with "Blancwing", it gains 400 ATK and 600 DEF.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 1600
+def = 1400
+ot = "CUSTOM"
+author = "Utei So"
+
+[card.blancwing]
+id = 19710065
+name = "Blancwing"
+attribute = "light"
+rank = 2
+type = "monster effect union"
+race = "winged-beast"
+set = "rider-ally kaijin"
+effect = '''
+This card is also a Warrior-Type monster.
+${UNION|LIGHT "Kamen Rider"|monster effects}
+(This card is always treated as a "Rider Ally" and "Kaijin" .)'''
+atk = 800
+def = 800
+ot = "CUSTOM"
+
+
+[card.kr-tsukuyomi]
+id = 19710066
+name = "Kamen Rider Femme"
+attribute = "light"
+rank = 4
+type = "monster effect"
+race = "fairy"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+(Quick Effect)If a face-up "Kamen Rider Zi-O" or "Kamen Rider Geiz" you control would be destroyed by battle or your opponents card effect, Special Summon this card from your hand, negate your opponents battle or card effect, end their turn, and destroy 1 monster on their side of the field.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 1200
+def = 1700
+ot = "CUSTOM"
+
+
+[card.kr-zolda]
+id = 19710067
+name = "Kamen Rider Zolda"
+attribute = "earth"
+rank = 6
+type = "monster effect"
+race = "warrior"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+When this card is Normal Summoned or Special Summoned: discard 1 card, Special Summon "Magnugiga" from your hand, deck or GY. If this card is equipped with "Magnugiga", it gains 600 ATK, and when it destroys and when it destroys an opponent's monster by battle, destroy 1 monster your opponent controls with DEF less than equal to the DEF of the destroyed monster..
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 2400
+def = 1200
+ot = "CUSTOM"
+author = "bing_chang"
+
+[card.magnugiga]
+id = 19710068
+name = "Magnugiga"
+attribute = "earth"
+rank = 2
+type = "monster effect union"
+race = "machine"
+set = "rider-ally kaijin"
+effect = '''
+${UNION|EARTG "Kamen Rider"|monster effects}
+(This card is always treated as a "Rider Ally" and "Kaijin" .)'''
+atk = 0
+def = 2000
+ot = "CUSTOM"
+
+
+[card.shinken-red]
+id = 19710069
+name = "Shinken Red"
+attribute = "fire"
+type = "monster effect"
+level = 4
+race = "warrior"
+set = "rider-ally destiny-hero"
+effect = '''
+When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
+All "Kamen Rider" monsters you control gain 200 ATK.
+(This card is always treated as a "Rider Ally" and "Elemental HERO".)'''
+atk = 2000
+def = 1200
+ot = "CUSTOM"
+
+
+[card.kr-ex-aid-lv1]
+id = 19710070
+name = "Kamen Rider Ex-Aid LV 1"
+attribute = "light"
+level = 1
+type = "monster effect"
+race = "cyberse"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+Kamen Rider Ex-Aid LV 1 is also a Warrior-Type monster.
+This card's name is treated as "Kamen Rider Ex-Aid" while in your hand, GY or field.
+You can Lin Summon using this card alone during your opponent's turn.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 1000
+ot = "CUSTOM"
+
+[card.kr-ex-aid]
+id = 19710071
+name = "Kamen Rider Ex-Aid"
+attribute = "light"
+link-rating = 1
+link-arrows = "right"
+type = "monster link effect"
+race = "cyberse"
+set = "kamen-rider destiny-hero masked-hero"
+effect = '''
+1 "Kamen Rider Ex-Aid"
+Kamen Rider Ex-Aid is also a Warrior-Type monster.
+Once per turn, during the Battle Step, if this card battles an opponent's monster (Quick Effect): Add a equip spell from your GY to your hand, and equip it to this card, or add a quick-play spell card from your GY to your hand.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 1800
+ot = "CUSTOM"

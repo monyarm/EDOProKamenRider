@@ -11,3 +11,5 @@ Tribute this card: Special Summon any level 8 or lower "Kamen Rider" from your h
 
 DIENDEFFECT = '''Once per turn: Special Summon a Level 4 or lower "Kamen Rider" from your deck, ignoring summoning conditions.
 (This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+
+UNION = '''Once per turn, you can either: Target 1 $1 you control; equip this card to that target, OR: Unequip this card and Special Summon it. A monster equipped with this card is unaffected by your opponent's $2, also if the equipped monster would be destroyed by battle or card effect, destroy this card instead'''
