@@ -1083,7 +1083,7 @@ ot = "CUSTOM"
 
 [card.kr-tsukuyomi]
 id = 19710066
-name = "Kamen Rider Femme"
+name = "Kamen Rider Tsukuyomi"
 attribute = "light"
 rank = 4
 type = "monster effect"
@@ -1177,4 +1177,89 @@ Kamen Rider Ex-Aid is also a Warrior-Type monster.
 Once per turn, during the Battle Step, if this card battles an opponent's monster (Quick Effect): Add a equip spell from your GY to your hand, and equip it to this card, or add a quick-play spell card from your GY to your hand.
 (This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
 atk = 1800
+ot = "CUSTOM"
+
+
+[card.momotaros]
+id = 19710072
+name = "Momotaros"
+attribute = "fire"
+level = 3
+type = "monster effect"
+race = "fiend"
+set = "rider-ally destiny-hero"
+effect = '''
+Momotaros is also a Warrior-Type monster.
+If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Sword Form" from your hand, deck or GY. When this card destroys and opoonent's monster by battle, deal damage to your opponent equal to it's level x 200.
+(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+atk = 1800
+def = 0
+ot = "CUSTOM"
+
+
+[card.urataros]
+id = 19710073
+name = "Urataros"
+attribute = "water"
+level = 3
+type = "monster effect"
+race = "fiend"
+set = "rider-ally destiny-hero"
+effect = '''
+Urataros is also a Warrior-Type monster.
+If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Rod Form" from your hand, deck or GY. Once per turn, look at the top card of your deck, you may place it on the top or bottom of your deck.
+(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+atk = 1400
+def = 1600
+ot = "CUSTOM"
+
+
+
+[card.kintaros]
+id = 19710074
+name = "Kintaros"
+attribute = "earth"
+level = 3
+type = "monster effect"
+race = "fiend"
+set = "rider-ally destiny-hero"
+effect = '''
+Kintaros is also a Warrior-Type monster.
+If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Axe Form" from your hand, deck or GY.  If this card battles an opponent's monster and doesn't destroy it, your opponent must sacrifice it.
+(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+atk = 1600
+def = 2200
+ot = "CUSTOM"
+
+[card.ryutaros]
+id = 19710075
+name = "Ryutaros"
+attribute = "dark"
+level = 3
+type = "monster effect"
+race = "fiend"
+set = "rider-ally destiny-hero"
+effect = '''
+Kintaros is also a Warrior-Type monster.
+If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Gun Form" from your hand, deck or GY.  Once per duel, when this card destroys an opponent's monster by battle, you can special summon it to your side of the field, ignoring summoning restrictions.
+(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+atk = 1700
+def = 200
+ot = "CUSTOM"
+
+
+[card.sieg]
+id = 19710076
+name = "Sieg"
+attribute = "light"
+level = 3
+type = "monster effect"
+race = "fiend"
+set = "rider-ally destiny-hero"
+effect = '''
+Sieg is also a Warrior-Type monster.
+If this card would be destroyed by battle with an opponent's non-zombie, non-beast-warrior, non-Earth monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Wing Form" from your hand, deck or GY. 
+(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+atk = 1500
+def = 1500
 ot = "CUSTOM"
