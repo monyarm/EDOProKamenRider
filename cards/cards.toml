@@ -1240,7 +1240,7 @@ type = "monster effect"
 race = "fiend"
 set = "rider-ally destiny-hero"
 effect = '''
-Kintaros is also a Warrior-Type monster.
+Ryutaros is also a Warrior-Type monster.
 If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Gun Form" from your hand, deck or GY.  Once per duel, when this card destroys an opponent's monster by battle, you can special summon it to your side of the field, ignoring summoning restrictions.
 (This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
 atk = 1700
@@ -1262,4 +1262,86 @@ If this card would be destroyed by battle with an opponent's non-zombie, non-bea
 (This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
 atk = 1500
 def = 1500
+ot = "CUSTOM"
+
+[card.kr-ooo]
+id = 19710077
+name = "Kamen Rider OOO"
+attribute = "earth"
+level = 5
+type = "monster effect"
+race = "insect"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Sieg is also a Warrior-Type, Winged-Beast-Type and Beast-Type monster.
+You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of "Kamen Rider OOO" once per turn.
+(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+atk = 2200
+def = 1400
+ot = "CUSTOM"
+
+[card.kr-ooo-tajador]
+id = 19710078
+name = "Kamen Rider OOO - Tajador Combo"
+attribute = "fire"
+level = 10
+type = "monster effect"
+race = "winged-beast"
+set = "kamen-rider masked-hero elemental-hero"
+effect = '''
+Sieg is also a Warrior-Type monster.
+You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of "Kamen Rider OOO" once per turn. Once per turn, discard 3 winged-beast or FIRE monsters, your opponent takes 300 points of damage, for each winged-beast or FIRE monster on the field ad in the graveyard.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 3400
+def = 1200
+ot = "CUSTOM"
+
+[card.kr-ooo-shauta]
+id = 19710079
+name = "Kamen Rider OOO - Shauta Combo"
+attribute = "water"
+level = 6
+type = "monster effect"
+race = "sea-serpent"
+set = "kamen-rider masked-hero elemental-hero"
+effect = '''
+Sieg is also a Warrior-Type and Fish-Type monster.
+You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of "Kamen Rider OOO" once per turn. As long as this card remains face-up on the field, the field is treated as "Umi" (however there is no increasing or decreasing of ATK/DEF due to "Umi"'s effect). If there is an active Field Spell Card on the field, this effect is not applied.
+(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+atk = 2500
+def = 1600
+ot = "CUSTOM"
+
+[card.kr-shouki]
+id = 19710080
+name = "Kamen Rider Shouki"
+attribute = "fire"
+level = 7
+type = "monster effect ritual"
+race = "fiend"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
+Kamen Rider Shouki is also treated as a Warrior-Type monster.
+Once per turn, if your opponent has more cards in their hand than you do, they must discard cards untill they have 1 less than you.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 2600
+def = 2000
+ot = "CUSTOM"
+
+[card.kr-tohki]
+id = 19710081
+name = "Kamen Rider Tohki"
+attribute = "fire"
+level = 8
+type = "monster effect ritual"
+race = "fiend"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
+Kamen Rider Tohki is also treated as a Warrior-Type monster.
+This card can attack while in defense position. This card deals piercing damage, during damage calculation use the atk or def of the opponent's monster, whichever is lower.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 800
+def = 2600
 ot = "CUSTOM"
