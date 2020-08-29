@@ -256,7 +256,7 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 This card is also treated as LIGHT attribute.
 This card gains 200 ATK for each monster on the opponent's side of the field.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1600
 def = 1000
 ot = "CUSTOM"
@@ -306,7 +306,7 @@ effect = '''
 Kamen Rider Fourze gains 200 ATK for each of its XYZ materials.
 When Kamen Rider Fourze destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
 Once per turn, you can attach a "HERO" or "Rider Ally" monster from your hand or your side of the field to this card as an XYZ material.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 1000
 def = 1000
 ot = "CUSTOM"
@@ -327,7 +327,7 @@ pendulum-effect = '''Castle Doran can be played as a field-spell with the follow
 effect = '''
 Castle Doran is always treated as a field-spell.
 Once per turn: You can tribute a face-up "Vampire" monster you control, and deal damage to your opponent equal to half that monster's ATK.
-(This card is always treated as a "Rider Ally" .)'''
+(This card is always treated as a "Rider Ally".)'''
 atk = 3000
 def = 2500
 ot = "CUSTOM"
@@ -370,7 +370,7 @@ Kamen Rider Nadeshiko is also a Warrior-Type monster.
 Kamen Rider Nadeshiko gains 200 ATK for each of its XYZ materials.
 When Kamen Rider Nadeshiko destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
 When this card leaves the field, attach it and all XYZ materials attached to it to a XYZ monster on your side of the field.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 800
 def = 400
 ot = "CUSTOM"
@@ -388,7 +388,7 @@ effect = '''
 Kamen Rider Den-O Sword Form is also a Warrior-Type monster.
 This cards name is treated as "Kamen Rider Den-O" while in your hand, field or GY.
 When this card destroys and opoonent's monster by battle, your opponent chooses one monster on their side of the field, banish it, and deal damage to your opponent equal to it's level x 200.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 1800
 def = 0
 ot = "CUSTOM"
@@ -405,7 +405,7 @@ effect = '''
 Kamen Rider Den-O Rod Form is also a Warrior-Type monster.
 This cards name is treated as "Kamen Rider Den-O" while in your hand, field or GY.
 Once per turn, look at the top card of your deck, you may place it on the top or bottom of your deck. Once per turn, send the top card of your deck to the graveyard, draw 1 card.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 1400
 def = 1600
 ot = "CUSTOM"
@@ -452,7 +452,7 @@ Kamen Rider Ex-Aid Hyper Muteki is also a Warrior-Type monster.
 This card's name is treated as "Kamen Rider Ex-Aid" while in your hand, GY or field.
 During the Battle Step, if this card battles an opponent's monster (Quick Effect): You can target that opponent's monster; banish both this card from the field and that target. Return those banished monsters to the field at the end of the Battle Phase, and if you banished a Link Monster, this card gains ATK equal to 500 * it's Link Rating.
 If this card is destroyed by battle or removed from the field by your opponent's card effect: You can place this card in your Pendulum Zone.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 pendulum-effect = '''
 Once per turn (Quick Effect): Target "Kamen Rider" monster you controll gains 1000 ATK and cannot be destroyed by battle or card effects untill the end of turn.
 '''
@@ -484,7 +484,7 @@ effect = '''
 1+ "Kamen Rider" or "Bugster Virus" monster
 Kamen Rider Poppy is also a Warrior-Type monster.
 All "Masked HERO" monsters on your side of the field gain 500 ATK/DEF.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 
 atk = 1600
 ot = "CUSTOM"
@@ -859,7 +859,7 @@ set = "kamen-rider elemental-hero masked-hero"
 effect = '''
 Kamen Rider Den-O Axe Form is also a Warrior-Type monster.
 This cards name is treated as "Kamen Rider Den-O" while in your hand, field or GY. This card cannot be destroyed by battle. You take no battle damage from attacks involving this monster. If this card battles an opponent's monster and doesn't destroy it, your opponent must sacrifice it.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 1600
 def = 2200
 ot = "CUSTOM"
@@ -876,7 +876,7 @@ effect = '''
 Kamen Rider Gills - Imperfect Agito is also a Warrior-Type monster.
 This card's name is always treated as "Kamen Rider Gills - Imperfect Agito"
 When this card destroys an opponent's monster by battle, it gains ATK equal to the difference between their levels X 100, then deal 200 points of effect damage to your opponent.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1700
 def = 1200
 ot = "CUSTOM"
@@ -893,7 +893,7 @@ set = "kamen-rider elemental-hero masked-hero"
 effect = '''
 2 level 3 monsters.
 When this card destroys an  opponent's monster by battle, detach an XYZ material from this card, banish the destroyed monster, and one random card in your opponent's hand.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 1700
 def = 1200
 ot = "CUSTOM"
@@ -909,7 +909,7 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 This card is also a Warrior-Type monster.
 Kamen Rider Zero-One can attack your opponent directly, however it only deals half damage when doing so.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1600
 def = 1200
 ot = "CUSTOM"
@@ -926,7 +926,7 @@ effect = '''
 This card is also a Warrior-Type monster.
 This cards name is treated as "Kamen Rider Zero-One" while in your hand, field or GY.
 When this card destroys an opponent's monster by battle, deal 500 points of damage to your opponent.
-(This card is always treated as a "Masked HERO", "Elemental HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO", "Elemental HERO" and "Destiny HERO".)'''
 atk = 1900
 def = 1000
 ot = "CUSTOM"
@@ -943,7 +943,7 @@ effect = '''
 This card is also a Warrior-Type monster.
 This cards name is treated as "Kamen Rider Zero-One" while in your hand, field or GY.
 This card deals piercing damage. If "Umi" is on the field, this card gains 800 ATK.
-(This card is always treated as a "Masked HERO", "Elemental HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO", "Elemental HERO" and "Destiny HERO".)'''
 atk = 1200
 def = 1000
 ot = "CUSTOM"
@@ -1025,7 +1025,7 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 This card is also a Warrior-Type monster.
 If this monster destroys your opponent's monster by battle, deal 300 points of damage to your opponent.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 2400
 def = 800
 ot = "CUSTOM"
@@ -1042,7 +1042,7 @@ effect = '''
 This card is also a Warrior-Type monster.
 This card's name is always treated as "Kamen Rider Sasword"
 If this card is destroyed by battle or your opponent's card effect, you can banish it: Special Summon from you hand, deck or GY a level 6 "Kamen Rider Sasword".
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 800
 def = 2400
 ot = "CUSTOM"
@@ -1058,7 +1058,7 @@ set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 This card is also a Warrior-Type monster.
 When this card is Normal Summoned or Special Summoned: discard 1 card, Special Summon "Blancwing" from your hand, deck or GY. If this card is equipped with "Blancwing", it gains 400 ATK and 600 DEF.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1600
 def = 1400
 ot = "CUSTOM"
@@ -1075,7 +1075,7 @@ set = "rider-ally kaijin"
 effect = '''
 This card is also a Warrior-Type monster.
 ${UNION|LIGHT "Kamen Rider"|monster effects}
-(This card is always treated as a "Rider Ally" and "Kaijin" .)'''
+(This card is always treated as a "Rider Ally" and "Kaijin".)'''
 atk = 800
 def = 800
 ot = "CUSTOM"
@@ -1091,7 +1091,7 @@ race = "fairy"
 set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 (Quick Effect)If a face-up "Kamen Rider Zi-O" or "Kamen Rider Geiz" you control would be destroyed by battle or your opponents card effect, Special Summon this card from your hand, negate your opponents battle or card effect, end their turn, and destroy 1 monster on their side of the field.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1200
 def = 1700
 ot = "CUSTOM"
@@ -1107,7 +1107,7 @@ race = "warrior"
 set = "kamen-rider destiny-hero masked-hero"
 effect = '''
 When this card is Normal Summoned or Special Summoned: discard 1 card, Special Summon "Magnugiga" from your hand, deck or GY. If this card is equipped with "Magnugiga", it gains 600 ATK, and when it destroys and when it destroys an opponent's monster by battle, destroy 1 monster your opponent controls with DEF less than equal to the DEF of the destroyed monster..
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 2400
 def = 1200
 ot = "CUSTOM"
@@ -1123,7 +1123,7 @@ race = "machine"
 set = "rider-ally kaijin"
 effect = '''
 ${UNION|EARTG "Kamen Rider"|monster effects}
-(This card is always treated as a "Rider Ally" and "Kaijin" .)'''
+(This card is always treated as a "Rider Ally" and "Kaijin".)'''
 atk = 0
 def = 2000
 ot = "CUSTOM"
@@ -1158,7 +1158,7 @@ effect = '''
 Kamen Rider Ex-Aid LV 1 is also a Warrior-Type monster.
 This card's name is treated as "Kamen Rider Ex-Aid" while in your hand, GY or field.
 You can Lin Summon using this card alone during your opponent's turn.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1000
 ot = "CUSTOM"
 
@@ -1175,7 +1175,7 @@ effect = '''
 1 "Kamen Rider Ex-Aid"
 Kamen Rider Ex-Aid is also a Warrior-Type monster.
 Once per turn, during the Battle Step, if this card battles an opponent's monster (Quick Effect): Add a equip spell from your GY to your hand, and equip it to this card, or add a quick-play spell card from your GY to your hand.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1800
 ot = "CUSTOM"
 
@@ -1191,7 +1191,7 @@ set = "rider-ally destiny-hero"
 effect = '''
 Momotaros is also a Warrior-Type monster.
 If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Sword Form" from your hand, deck or GY. When this card destroys and opoonent's monster by battle, deal damage to your opponent equal to it's level x 200.
-(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1800
 def = 0
 ot = "CUSTOM"
@@ -1208,7 +1208,7 @@ set = "rider-ally destiny-hero"
 effect = '''
 Urataros is also a Warrior-Type monster.
 If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Rod Form" from your hand, deck or GY. Once per turn, look at the top card of your deck, you may place it on the top or bottom of your deck.
-(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1400
 def = 1600
 ot = "CUSTOM"
@@ -1226,7 +1226,7 @@ set = "rider-ally destiny-hero"
 effect = '''
 Kintaros is also a Warrior-Type monster.
 If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Axe Form" from your hand, deck or GY.  If this card battles an opponent's monster and doesn't destroy it, your opponent must sacrifice it.
-(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1600
 def = 2200
 ot = "CUSTOM"
@@ -1242,7 +1242,7 @@ set = "rider-ally destiny-hero"
 effect = '''
 Ryutaros is also a Warrior-Type monster.
 If this card would be destroyed by battle with an opponent's monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Gun Form" from your hand, deck or GY.  Once per duel, when this card destroys an opponent's monster by battle, you can special summon it to your side of the field, ignoring summoning restrictions.
-(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1700
 def = 200
 ot = "CUSTOM"
@@ -1259,7 +1259,7 @@ set = "rider-ally destiny-hero"
 effect = '''
 Sieg is also a Warrior-Type monster.
 If this card would be destroyed by battle with an opponent's non-zombie, non-beast-warrior, non-Earth monster, you can banish both this card and the opponent's monster, and special summon one "Kamen Rider Den-O Wing Form" from your hand, deck or GY. 
-(This card is always treated as a "Rider Ally" and "Destiny HERO" .)'''
+(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
 atk = 1500
 def = 1500
 ot = "CUSTOM"
@@ -1273,9 +1273,10 @@ type = "monster effect"
 race = "insect"
 set = "kamen-rider masked-hero destiny-hero"
 effect = '''
-Sieg is also a Warrior-Type, Winged-Beast-Type and Beast-Type monster.
-You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of "Kamen Rider OOO" once per turn.
-(This card is always treated as a "Masked HERO" and "Destiny HERO" .)'''
+"Kamen Rider OOO" is also a Warrior-Type, Winged-Beast-Type and Beast-Type monster.
+This card's name is treated as "Kamen Rider OOO" while on the field or in your hand, or GY.
+You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of a "Kamen Rider OOO" once per turn.
+(This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 2200
 def = 1400
 ot = "CUSTOM"
@@ -1289,9 +1290,10 @@ type = "monster effect"
 race = "winged-beast"
 set = "kamen-rider masked-hero elemental-hero"
 effect = '''
-Sieg is also a Warrior-Type monster.
-You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of "Kamen Rider OOO" once per turn. Once per turn, discard 3 winged-beast or FIRE monsters, your opponent takes 300 points of damage, for each winged-beast or FIRE monster on the field ad in the graveyard.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+"Kamen Rider OOO - Tajador Combo" is also a Warrior-Type monster.
+This card's name is treated as "Kamen Rider OOO" while on the field or in your hand, or GY.
+You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of a "Kamen Rider OOO" once per turn. Once per turn, discard 3 winged-beast or FIRE monsters, your opponent takes 300 points of damage, for each winged-beast or FIRE monster on the field and in the graveyard.
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 3400
 def = 1200
 ot = "CUSTOM"
@@ -1305,9 +1307,10 @@ type = "monster effect"
 race = "sea-serpent"
 set = "kamen-rider masked-hero elemental-hero"
 effect = '''
-Sieg is also a Warrior-Type and Fish-Type monster.
-You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of "Kamen Rider OOO" once per turn. As long as this card remains face-up on the field, the field is treated as "Umi" (however there is no increasing or decreasing of ATK/DEF due to "Umi"'s effect). If there is an active Field Spell Card on the field, this effect is not applied.
-(This card is always treated as a "Masked HERO" and "Elemental HERO" .)'''
+"Kamen Rider OOO - Shauta Combo" is also a Warrior-Type and Fish-Type monster.
+This card's name is treated as "Kamen Rider OOO" while on the field or in your hand, or GY.
+You can tribute this card, special summon 1 "Kamen Rider OOO" with a different original name, from your hand. You may only use this effect of a "Kamen Rider OOO" once per turn. As long as this card remains face-up on the field, the field is treated as "Umi" (however there is no increasing or decreasing of ATK/DEF due to "Umi"'s effect). If there is an active Field Spell Card on the field, this effect is not applied.
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
 atk = 2500
 def = 1600
 ot = "CUSTOM"
