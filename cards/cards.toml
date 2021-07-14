@@ -323,10 +323,10 @@ type = "monster pendulum effect field spell"
 race = "dragon"
 set = "rider-ally"
 pendulum-scale = 2
-pendulum-effect = '''Castle Doran can be played as a field-spell with the following effect:"All "Vampire" monsters on your side of the field gain 500 ATK. When a "Vampire" monster destroys an opponent's monster by battle, you gain life points equal to half the damage dealt. You can tribute 2 monsters on your side of the field, to Special Summon this card from the field-spell zone.".'''
+pendulum-effect = '''Castle Doran can be played as a field-spell with the following effect:"All Zombie-Type monsters on your side of the field gain 500 ATK. When a Zombie-Type monster destroys an opponent's monster by battle, you gain life points equal to half the damage dealt. You can tribute 2 monsters on your side of the field, to Special Summon this card from the field-spell zone.".'''
 effect = '''
 Castle Doran is always treated as a field-spell.
-Once per turn: You can tribute a face-up "Vampire" monster you control, and deal damage to your opponent equal to half that monster's ATK.
+Once per turn: You can tribute a face-up Zombie-Type monster you control, and deal damage to your opponent equal to half that monster's ATK.
 (This card is always treated as a "Rider Ally".)'''
 atk = 3000
 def = 2500
