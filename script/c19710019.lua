@@ -22,6 +22,18 @@ function s.initial_effect(c)
     e2:SetTarget(s.target_hand)
     e2:SetOperation(s.operation_hand)
     c:RegisterEffect(e2)
+
+    --atk/def
+    local e3 = Effect.CreateEffect(c)
+    e3:SetType(EFFECT_TYPE_SINGLE)
+    e3:SetProperty(EFFECT_FLAG_SINGLE_RANGE)
+    e3:SetCode(EFFECT_UPDATE_ATTACK)
+    e3:SetRange(LOCATION_MZONE)
+    e3:SetValue(s.atkval)
+    c:RegisterEffect(e3)
+end
+function s.atkval(e,c)
+  return c:GetOverlayCount()*200
 end
 s.listed_series = {0xa008, 0x622}
 function s.filter(c)
