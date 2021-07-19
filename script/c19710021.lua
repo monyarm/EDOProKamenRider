@@ -37,7 +37,7 @@ function s.condition(e,tp,eg,ep,ev,re,r,rp)
 	return c:IsRelateToBattle() and c:GetBattleTarget():IsType(TYPE_MONSTER)
 end
 function s.filter(c)
-  return c:IsType(TYPE_SPELL+TYPE_TRAP)
+  return c:IsType(TYPE_SPELL+TYPE_TRAP) and c:GetControler() == 1-Duel.GetTurnPlayer()
 end
 function s.target(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
   if chkc then return chkc:IsOnField() and s.filter(chkc) and chkc~=e:GetHandler() end
