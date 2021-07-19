@@ -1,1 +1,5 @@
-c19710002.lua
+-- Kamen Rider Wizard
+local s, id = GetID()
+function s.initial_effect(c)
+  -- effects
+end

@@ -18,7 +18,7 @@ ot = "CUSTOM"
 author = "masarou"
 
 [card.kr-wizard]
-id = 19710002
+id = 197100020
 name = "Kamen Rider Wizard"
 attribute = "fire"
 level = 7
@@ -36,7 +36,7 @@ artist = "sennsu"
 
 [card.kr-wizard2]
 id = 197100021
-alias= 19710002
+alias= 197100020
 name = "Kamen Rider Wizard"
 attribute = "fire"
 level = 7
@@ -53,7 +53,7 @@ ot = "CUSTOM"
 
 [card.kr-wizard3]
 id = 197100022
-alias= 19710002
+alias= 197100020
 name = "Kamen Rider Wizard"
 attribute = "fire"
 level = 7
@@ -125,7 +125,7 @@ ot = "CUSTOM"
 author = "funbolt"
 
 [card.kr-kiva]
-id = 19710006
+id = 197100060
 name = "Kamen Rider Kiva"
 attribute = "dark"
 level = 4
@@ -145,7 +145,7 @@ author = "myojo_SD"
 
 [card.kr-kiva2]
 id = 197100061
-alias = 19710006
+alias = 197100060
 name = "Kamen Rider Kiva"
 attribute = "dark"
 level = 4
@@ -243,7 +243,6 @@ During your Main Phase, you can Normal Summon 1  "Kamen Rider", "Rider Gadget", 
 ot = "CUSTOM"
 strings = ["Normal Summon (Let's Ride)"]
 author = "マスクド"
-# Not Yet Implemented 
 
 [card.kr-kuuga]
 id = 19710016
@@ -251,10 +250,11 @@ name = "Kamen Rider Kuuga"
 attribute = "dark"
 level = 4
 type = "monster effect"
-race = "warrior"
+race = "insect"
 set = "kamen-rider destiny-hero masked-hero"
 effect = '''
-This card is also treated as LIGHT attribute.
+This card is also treated as a LIGHT attribute monster.
+This card is also treated as a Warrior-Type monster
 This card gains 200 ATK for each monster on the opponent's side of the field.
 (This card is always treated as a "Masked HERO" and "Destiny HERO".)'''
 atk = 1600
@@ -262,13 +262,54 @@ def = 1000
 ot = "CUSTOM"
 author = "マスクド"
 
+[card.kr-sabaki]
+id = 19710021
+name = "Kamen Rider Sabaki"
+attribute = "fire"
+level = 6
+type = "monster effect ritual"
+race = "fiend"
+set = "kamen-rider masked-hero destiny-hero"
+effect = '''
+Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
+Kamen Rider Sabaki is also treated as a Warrior-Type monster.
+Kamen Rider Sabaki gains 600 ATK while battling a level 8 or higher monster.
+Kamen Rider Sabaki gains 600 ATK while battling a rank 5 or higher monster.
+Kamen Rider Sabaki gains 600 ATK while battling a link 3 or higher monster.
+When this card destroys an opponent's monster by battle, target 1 Spell/Trap on your opponent's side of the field, destroy that card.
+(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
+atk = 2400
+def = 2000
+ot = "CUSTOM"
+artist = "funbolt"
+
+
+[card.kr-fourze]
+id = 19710019
+name = "Kamen Rider Fourze"
+attribute = "light"
+rank = 4
+type = "monster xyz effect"
+race = "warrior"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+2 level 4 Warrior monsters.
+Kamen Rider Fourze gains 200 ATK for each of its XYZ materials.
+When Kamen Rider Fourze destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
+Once per turn, you can attach a "HERO" or "Rider Ally" monster from your hand or your side of the field to this card as an XYZ material.
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
+atk = 1000
+def = 1000
+ot = "CUSTOM"
+author = "Masked"
+# Not Yet Implemented 
 
 [card.final-battle]
 id = 19710017
 name = "The Final Battle"
 type = "spell quickplay"
 effect = '''
-Target "Masked HERO" monster cannot be destroyed by battle or card effect, cannot be returned to the hand or deck, and you don't take battle damage from battle involving it, untill the end of the turn.
+Target "Masked HERO" monster cannot be destroyed by battle or card effect, cannot be returned to the hand or deck, and you don't take battle damage from battle involving it, until the end of the turn.
 You can tribute a face up "HERO" monster, to activate this card from your hand, during your opponent's turn.
 '''
 ot = "CUSTOM"
@@ -293,25 +334,6 @@ ot = "CUSTOM"
 author = "ryukawa"
 
 
-[card.kr-fourze]
-id = 19710019
-name = "Kamen Rider Fourze"
-attribute = "light"
-rank = 4
-type = "monster xyz effect"
-race = "warrior"
-set = "kamen-rider elemental-hero masked-hero"
-effect = '''
-2 level 4 Warrior monsters.
-Kamen Rider Fourze gains 200 ATK for each of its XYZ materials.
-When Kamen Rider Fourze destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
-Once per turn, you can attach a "HERO" or "Rider Ally" monster from your hand or your side of the field to this card as an XYZ material.
-(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
-atk = 1000
-def = 1000
-ot = "CUSTOM"
-author = "Masked"
-
 
 
 [card.castle-doran]
@@ -332,28 +354,6 @@ atk = 3000
 def = 2500
 ot = "CUSTOM"
 author = "SO"
-
-
-[card.kr-sabaki]
-id = 19710021
-name = "Kamen Rider Sabaki"
-attribute = "fire"
-level = 6
-type = "monster effect ritual"
-race = "fiend"
-set = "kamen-rider masked-hero destiny-hero"
-effect = '''
-Must be Ritual Summoned, and cannot be Special Summoned by other ways. 
-Kamen Rider Sabaki is also treated as a Warrior-Type monster.
-Kamen Rider Sabaki gains 600 ATK while battling a level 8 or higher monster.
-Kamen Rider Sabaki gains 600 ATK while battling a rank 5 or higher monster.
-Kamen Rider Sabaki gains 600 ATK while battling a link 3 or higher monster.
-When this card destroys an opponent's monster by battle, target 1 spell/trap on your opponent's side of the field, destroy that card.
-(This card is always treated as both a "Masked HERO" and "Destiny HERO" monster.)'''
-atk = 2400
-def = 2000
-ot = "CUSTOM"
-artist = "funbolt"
 
 
 [card.kr-nadeshiko]
@@ -525,7 +525,7 @@ atk = 1700
 def = 1300
 ot = "CUSTOM"
 
-[card.taki rider]
+[card.taki-rider]
 id = 19710033
 name = "Taki Rider"
 attribute = "dark"
@@ -613,22 +613,6 @@ This card gains 1000 ATK when battling a monster with higher ATK than it.
 
 atk = 2000
 def = 800
-ot = "CUSTOM"
-
-[card.mazingerz]
-id = 19710038
-name = "Mazinger Z"
-attribute = "earth"
-type = "monster effect"
-level = 10
-race = "machine"
-set = "rider-ally destiny-hero"
-effect = '''
-When a "Kamen Rider" monster on your side of the field is destroyed by battle, you can special summon this card from your hand.
-(This card is always treated as a "Rider Ally" and "Destiny HERO".)'''
-
-atk = 3600
-def = 3200
 ot = "CUSTOM"
 
 [card.supaidaman]
