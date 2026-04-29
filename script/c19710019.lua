@@ -2,13 +2,13 @@
 local s, id = GetID()
 function s.initial_effect(c)
     -- xyz summon
-    Xyz.AddProcedure(c, nil, 4, 2)
+    Xyz.AddProcedure(c, aux.FilterBoolFunctionEx(Card.IsRace,RACE_WARRIOR), 4, 2)
     c:EnableReviveLimit()
     -- Attach XYZ
     local e1 = Effect.CreateEffect(c)
-    e1:SetType(EFFECT_TYPE_SINGLE + EFFECT_TYPE_TRIGGER_F)
+	  e1:SetDescription(aux.Stringid(id,1))
+    e1:SetType(EFFECT_TYPE_SINGLE + EFFECT_TYPE_TRIGGER_O)
     e1:SetCode(EVENT_BATTLE_DESTROYING)
-    e1:SetProperty(EFFECT_FLAG_CARD_TARGET)
     e1:SetCondition(s.condition)
     e1:SetTarget(s.target)
     e1:SetOperation(s.operation)
@@ -53,22 +53,24 @@ function s.operation_hand(e,tp,eg,ep,ev,re,r,rp)
 	end
 end
 function s.condition(e, tp, eg, ep, ev, re, r, rp)
-    local c = e:GetHandler()
-    return c:IsRelateToBattle() and c:GetBattleTarget():IsType(TYPE_MONSTER)
+	local c=e:GetHandler()
+	local tc=c:GetBattleTarget()
+	if not c:IsRelateToBattle() or c:IsFacedown() then return false end
+	e:SetLabelObject(tc)
+	return tc:IsLocation(LOCATION_GRAVE) and tc:IsMonster() and tc:IsReason(REASON_BATTLE)
 end
-function s.target(e, tp, eg, ep, ev, re, r, rp)
-    local c = e:GetHandler()
-    return c:IsRelateToBattle() and c:GetBattleTarget():IsType(TYPE_MONSTER)
+
+function s.target(e, tp, eg, ep, ev, re, r, rp, chk)
+	if chk==0 then return e:GetHandler():IsType(TYPE_XYZ) end
+	local tc=e:GetLabelObject()
+	Duel.SetTargetCard(tc)
+	Duel.SetOperationInfo(0,CATEGORY_LEAVE_GRAVE,tc,1,0,0)
 end
 
 function s.operation(e, tp, eg, ep, ev, re, r, rp)
-    local c = e:GetHandler()
-    local tc = Duel.GetFirstTarget()
-    if c:IsRelateToEffect(e) and tc and tc:IsRelateToEffect(e) and not tc:IsImmuneToEffect(e) then
-        local og = tc:GetOverlayGroup()
-        if #og > 0 then
-            Duel.SendtoGrave(og, REASON_RULE)
-        end
-        Duel.Overlay(c, Group.FromCards(tc))
-    end
+	local c = e:GetHandler()
+	local tc = Duel.GetFirstTarget()
+	if c:IsRelateToEffect(e) and c:IsFaceup() and tc:IsRelateToEffect(e) then
+		Duel.Overlay(c,tc)
+	end
 end

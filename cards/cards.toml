@@ -302,6 +302,36 @@ atk = 1000
 def = 1000
 ot = "CUSTOM"
 author = "Masked"
+
+[card.kr-nadeshiko]
+id = 19710022
+name = "Kamen Rider Nadeshiko"
+attribute = "light"
+rank = 2
+type = "monster xyz effect"
+race = "fairy"
+set = "kamen-rider elemental-hero masked-hero"
+effect = '''
+2 level 2 LIGHT monsters.
+Kamen Rider Nadeshiko is also a Warrior-Type monster.
+Kamen Rider Nadeshiko gains 200 ATK for each of its XYZ materials.
+When Kamen Rider Nadeshiko destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
+When this card would leave the field, you may attach it and all XYZ materials attached to it to a XYZ monster on your side of the field.
+(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
+atk = 800
+def = 400
+ot = "CUSTOM"
+strings = ["Select a XYZ monster to attach Nadeshiko to."]
+artist = "Katsura Fukuzou"
+
+[card.treasure-sniper]
+id = 19710026
+name = "Treasure Sniper"
+type = "spell"
+effect = '''
+Add a "Kamen Rider" card from your deck or your opponent's graveyard to your hand.'''
+ot = "CUSTOM"
+
 # Not Yet Implemented 
 
 [card.final-battle]
@@ -355,27 +385,6 @@ def = 2500
 ot = "CUSTOM"
 author = "SO"
 
-
-[card.kr-nadeshiko]
-id = 19710022
-name = "Kamen Rider Nadeshiko"
-attribute = "light"
-rank = 2
-type = "monster xyz effect"
-race = "fairy"
-set = "kamen-rider elemental-hero masked-hero"
-effect = '''
-2 level 2 LIGHT monsters.
-Kamen Rider Nadeshiko is also a Warrior-Type monster.
-Kamen Rider Nadeshiko gains 200 ATK for each of its XYZ materials.
-When Kamen Rider Nadeshiko destroys an opponent's monster by battle, you can attach it to this card as an XYZ material.
-When this card leaves the field, attach it and all XYZ materials attached to it to a XYZ monster on your side of the field.
-(This card is always treated as a "Masked HERO" and "Elemental HERO".)'''
-atk = 800
-def = 400
-ot = "CUSTOM"
-artist = "Katsura Fukuzou"
-
 [card.kr-den-o-sword]
 id = 19710023
 name = "Kamen Rider Den-O Sword Form"
@@ -419,21 +428,12 @@ Special Summon from your hand, deck or GY, an "Agito" monster. It cannot attack 
 ot = "CUSTOM"
 
 
-
-[card.treasure-sniper]
-id = 19710026
-name = "Treasure Sniper"
-type = "spell"
-effect = '''
-Add a "Kamen Rider" card from your deck or your opponent's graveyard to your hand.'''
-ot = "CUSTOM"
-
 [card.zwei-vunche]
 id = 19710027
 name = "Der Schnittpunkt von zwei Wünschen"
 type = "spell"
 effect = '''If your opponent controls a "Greeed" or "Yummy" monster, destroy it. 
-Add a "Kamen Rider OOO" or "Greeed" or "Yummy" card from your deck to your hand and Special Summon from your hand or your opponent's graveyard a "Kamen Rider OOO" or "Greeed" monster'''
+Add a "Kamen Rider OOO", "Greeed" or "Yummy" card from your deck to your hand and Special Summon from your hand or your opponent's graveyard a "Kamen Rider OOO" or "Greeed" monster'''
 ot = "CUSTOM"
 
 
@@ -464,7 +464,7 @@ ot = "CUSTOM"
 
 [card.our-power]
 id = 19710029
-name = "This is our power"
+name = "This Is Our Power"
 type = "spell quickplay"
 effect = '''When a "HERO" or "Rider Ally" monster on your side of the field is destroyed by battle or your opponent's card effect, equip the destroyed monster to target "Kamen Rider" monster on your side of the field. As long as it's equipped, the target monster gains the ATK, DEF and all effects of the equipped monster.'''
 ot = "CUSTOM"
@@ -1106,7 +1106,7 @@ type = "monster effect union"
 race = "machine"
 set = "rider-ally kaijin"
 effect = '''
-${UNION|EARTG "Kamen Rider"|monster effects}
+${UNION|EARTH "Kamen Rider"|monster effects}
 (This card is always treated as a "Rider Ally" and "Kaijin".)'''
 atk = 0
 def = 2000
